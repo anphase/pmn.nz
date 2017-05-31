@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "On Attention"
+date:   2017-04-05 15:51:42 +1200
+categories: random
+permalink: /on-attention/
+---
 # On Attention
 
 Our minds and bodies appear to be working together towards singular coherent  goals. When we perform a task, recall a memory or just go through our day, it appears as if every part of our body is in it together. The reality however is that there is conflict at the cellular level. Every cell in our bodies and our minds is fighting to stay alive.
