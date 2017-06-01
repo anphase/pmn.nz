@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "On Attention"
-date:   2017-04-05 15:51:42 +1200
+date:   2017-06-01 15:51:42 +1200
 categories: random
 permalink: /on-attention/
 ---
-# On Attention
+# Just testing Jekyll: Ramble
 
-Our minds and bodies appear to be working together towards singular coherent  goals. When we perform a task, recall a memory or just go through our day, it appears as if every part of our body is in it together. The reality however is that there is conflict at the cellular level. Every cell in our bodies and our minds is fighting to stay alive.
+Our minds and bodies appear to be working together towards singular coherent goals. When we perform a task, recall a memory or just go through our day, it appears as if every part of our body is working in unison. The reality however is that there is conflict at the cellular level. Every cell in our bodies and our minds is fighting to stay alive.
 
 **Attention tends towards activity** in our minds, so our minds wander from thought to though throughout the day. Whenever we idle, our minds come alive with all sorts of thoughts and fantasies. If you try to think of nothing, it's almost like there's a pressure to shift to something, anything! 
 

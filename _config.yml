@@ -13,30 +13,32 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
-paginate:         5
-
-title: Panashe M Ngwerume's Web Site
-email: i@pmn.nz.com
+title: Panashe's panache
+email: panashemn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Panashe M Ngwerume's Space on the internet
-baseurl: "" # the subpath of your site, e.g. /blog
+  Panashe M Ngwerume's space on the internet.
+  Life long learner, programmer and great wonderer of the world.
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pmn.nz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: anphase
 github_username:  anphase
 
+paginate:         5
+
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-hyde
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
