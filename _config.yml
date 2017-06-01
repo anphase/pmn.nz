@@ -35,7 +35,7 @@ paginate:         5
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hyde
+theme: jekyll-theme-minimal
 gems:
   - jekyll-feed
   - jekyll-paginate
