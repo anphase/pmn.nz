@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
+permalink: pmn.nz/projects/
 ---
 
 This is a list of some of the projects that I'm working on:
