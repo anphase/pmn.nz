@@ -3,7 +3,7 @@ layout: post
 title:  "On Attention"
 date:   2017-06-01 15:51:42 +1200
 categories: random
-permalink: {baseurl}/on-attention/
+permalink: {{ site.baseurl }}{{ post.title }}
 ---
 # Just testing Jekyll: Ramble
 
