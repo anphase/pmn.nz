@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: pmn.nz/about/
+permalink: /about/
 ---
 
 I'm Panashe M Ngwerume, a computer engineer based in [Aotearoa](https://en.wikipedia.org/wiki/Aotearoa).
