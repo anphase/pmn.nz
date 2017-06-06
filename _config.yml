@@ -16,17 +16,16 @@
 
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
 
 title: Panashe's panache
-email: panashemn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Panashe M Ngwerume's space on the internet.
   Life long learner, programmer and great wonderer of the world.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/pmn.nz/" # the subpath of your site, e.g. /blog
 url: "https://pmn.nz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: anphase
 github_username:  anphase
@@ -35,7 +34,7 @@ paginate:         5
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hyde
+theme: jekyll-theme-minimal
 gems:
   - jekyll-feed
   - jekyll-paginate
