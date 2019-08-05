@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.4.3"
+gem "jekyll", "3.6.3"
 
 gem "minima", "~> 2.0"
 gem 'jekyll-theme-hyde', '~> 2.0'
