@@ -17,4 +17,4 @@ As much as I like to share what's worked and all things bright and beautiful, I 
 
 Going dark
 ---
-I've also decided to throw in a new coat of paint on the site that's darker and easier on the eyes. Hopefully it looks better.
+I've also decided to throw in a new coat of paint on the site that's slightly darker and easier on the eyes. Hopefully it looks better.

@@ -47,4 +47,4 @@ Interesting fact: McDonalds is the 4th-largest employer by number of employees (
 
 ----
 2008 - 2011
-### Bachelor of Engineering: Computer Systems Engineering (Honours), University of Auckland
+#### Bachelor of Engineering: Computer Systems Engineering (Honours), University of Auckland
