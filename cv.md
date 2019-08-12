@@ -38,8 +38,8 @@ Picked up a few small projects to compliment my studies
 ----
 2008 - 2009
 ### McDonalds, Role: Maintenance
-Industry: Fast food
-Interesting fact: McDonalds is the 4th-largest employer by number of employees (~2Mil)
+Industry: Fast food  
+*Interesting fact: McDonalds is the 4th-largest employer by number of employees (~2Mil)*
 
 
 ----
