@@ -11,13 +11,13 @@ I try to read books every now and again. I mainly read non-fiction books coverin
 
 ---
 
-**Currently reading**
+**Currently reading** &#9660;
 
 ---
 
 #### _Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness_
 
---- J. Kevin O'Reagan
+--- by J. Kevin O'Reagan
 
 _Thoughts_
 * wow
@@ -25,7 +25,7 @@ _Thoughts_
 ---
 #### _Gene Machine: The Race to Decipher the Secrets of the Ribosome_
 
---- Venki Ramakrishna
+--- by Venki Ramakrishna
   
 _Thoughts_
 * interesting read about the author's journey to winning the Nobel Prize in Chemistry. 
@@ -34,7 +34,7 @@ _Thoughts_
 
 ---
 
-**Read**
+**Read** &#9660;
 
 ---
 
