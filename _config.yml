@@ -35,9 +35,11 @@ paginate:         5
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-hyde
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
+kramdown:
+    auto_ids: true
