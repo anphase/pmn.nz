@@ -40,5 +40,8 @@ Memory.bike
 	Web Accessibility Initiative Accessible Rich Internet Applications
 {/a}
 ```
-These notes can then be presented as a question and answer in Anki cards or something
-(WIP... to be continued...ß)
+These notes can then be presented as a question and answer in Anki cards or something.
+
+- In my learning go via the cool [Gophercises](https://gophercises.com/) I worked through a quiz CLI that does a bit of this using questions and answers stored in a CSV file. My code is on [Github](https://github.com/anphase/go_quiz) but implementation details are in the Gophercises lesson 1. They are free and pretty fun, you should check them out if you're interested in learning Go by doing.
+
+(WIP... to be continued...)
