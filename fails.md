@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fails
-permalink: /fails
+permalink: /fails/
 ---
 
 Although focusing on successes is great and all, I want to make a little space for some of my failed endeavours. So to some extent, this is like a project graveyard. I will describe what I was trying to build based on notes, code and or other efforts that I documented.
