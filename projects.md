@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /projects
+permalink: /projects/
 ---
 
 I will keep a list of projects that I have launched on this page.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Books
-permalink: /books
+permalink: /books/
 date:   2019-08-17
 ---
 
