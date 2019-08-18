@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Books
-permalink: ../pmn.nz/books/
+permalink: /books
 date:   2019-08-17
 ---
 
-I try to read books every now and again. I mainly read non-fiction books covering a wide range of topics that interest me. I will add an * to books that stood out to me and write a blurb where I can.
+I try to read books every now and again. I mainly read non-fiction books covering a wide range of topics that interest me. I will rate the books out of 5 and add an asterisk * to books that stood out to me and write a blurb where I can.
 
 *last updated: {{ page.date }}*
 
@@ -35,7 +35,8 @@ _Thoughts so far_
 **Read** &#9660;
 
 ---
-#### _Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones_ 
+#### _Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones_* 
+{: #Atomic_Habits}
 
 --- by James Clear
   
