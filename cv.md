@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-permalink: ../pmn.nz/cv/
+permalink: /cv
 ---
 
 MY CV (WIP):
