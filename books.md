@@ -11,17 +11,19 @@ I try to read books every now and again. I mainly read non-fiction books coverin
 
 *last updated: {{ page.date }}*
 
-_WIP: There are ~250 books, I'm working on adding all of them in_
+_WIP: I've read and made notes on about ~250 books, I'm working on adding all of them in_
+
 ---
 
 # List
-<!-- Sort -->
+<!-- Sort Alphabetical -->
 [A Primate's Memoir: A Neuroscientist’s Unconventional Life Among the Baboons](#A_Primates_Memoir)<br>
 [Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones](#Atomic_Habits)*<br>
 [Failure: Why Science Is So Successful](#Why_Science_Is_So_Successful)<br>
 [Gene Machine: The Race to Decipher the Secrets of the Ribosome](#Gene_Machine)<br>
 [Possible Minds: Twenty-Five Ways of Looking at AI](#Possible_Minds)<br>
 [Range: Why Generalists Triumph in a Specialized World](#Range)<br>
+[The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams and God](#The_Accidental_Mind)<br>
 [Understanding the Brain: From Cells to Behaviour to Cognition](#Understanding_the_Brain)<br>
 [Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness](#Why_Red_Doesnt_Sound_Like_a_Bell)*<br>
 
@@ -130,5 +132,20 @@ _Thoughts_
 * Interesting read though
 
 _Rating_: 3.5/5
+
+---
+
+#### _The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams, and God_
+{: #The_Accidental_Mind}
+
+-- by David J. Linden
+
+_Thoughts_
+* What an eye opener!
+* The premise of the book is that the brain is not designed well at all - it's a kludge
+* Interesting ideas about about the why there's religion across all human cultures and other things
+* I love it when authors go out on a limb with some wild ideas
+
+_Rating_: 4.5/5
 
 ---
