@@ -11,6 +11,20 @@ I try to read books every now and again. I mainly read non-fiction books coverin
 
 *last updated: {{ page.date }}*
 
+_WIP: There are ~250 books, I'm working on adding all of them in_
+---
+
+# List
+<!-- Sort -->
+[A Primate's Memoir: A Neuroscientist’s Unconventional Life Among the Baboons](#A_Primates_Memoir)<br>
+[Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones](#Atomic_Habits)*<br>
+[Failure: Why Science Is So Successful](#Why_Science_Is_So_Successful)<br>
+[Gene Machine: The Race to Decipher the Secrets of the Ribosome](#Gene_Machine)<br>
+[Possible Minds: Twenty-Five Ways of Looking at AI](#Possible_Minds)<br>
+[Range: Why Generalists Triumph in a Specialized World](#Range)<br>
+[Understanding the Brain: From Cells to Behaviour to Cognition](#Understanding_the_Brain)<br>
+[Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness](#Why_Red_Doesnt_Sound_Like_a_Bell)*<br>
+
 ---
 
 **Currently reading** &#9660;
@@ -18,6 +32,7 @@ I try to read books every now and again. I mainly read non-fiction books coverin
 ---
 
 #### _Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness_
+{: #Why_Red_Doesnt_Sound_Like_a_Bell}
 
 --- by J. Kevin O'Reagan
 
@@ -46,9 +61,19 @@ _Thoughts so far_
 * I love books like this that touch on a topic that we understand a lot about but also know less than there is to know about.
 * There are lots of:
 
-> * we don't fully understand why ...
-
+> * we don't fully understand why ...<br>
 > * the [function/mechanism] of [this processes/thing] is not yet known ...
+
+---
+
+#### A Primate's Memoir: A Neuroscientist’s Unconventional Life Among the Baboons
+{: #A_Primates_Memoir}
+
+--- by Robert Sapolsky
+
+_Thoughts so far_
+* fascinating tails and interesting facts about both baboons and people
+* Robert Sapolsky writes delightfully
 
 ---
 
@@ -69,6 +94,7 @@ _Rating_: 5/5
 
 ---
 #### _Gene Machine: The Race to Decipher the Secrets of the Ribosome_
+{: #Gene_Machine}
 
 --- by Venki Ramakrishna
   
@@ -76,6 +102,32 @@ _Thoughts_
 * interesting read about the author's journey to winning the Nobel Prize in Chemistry. 
 * reminds me of Eric R. Kandel's book, In Search of Memory, which is also a story about that author's journey to a Nobel Prize. 
 * the amount of hard work mixed with strokes of luck in these stories always fascinating to me.
+
+_Rating_: 3.5/5
+
+---
+#### _Range: Why Generalists Triumph in a Specialized World_
+{: #Range}
+
+--- by David Epstein
+  
+_Thoughts_
+* Fascinating book encouraging us to broaden our scope in order to find out more about ourselves
+* We learn who we are in practice not in theory
+
+_Rating_: 5/5
+
+---
+
+#### _Possible Minds: Twenty-Five Ways of Looking at AI_
+{: #Possible_Minds}
+
+-- by John Brockman 
+
+_Thoughts_
+* It's a bit of a mixed bag - some of the essays brilliant and others are not so much
+* I liked the one by Stephen Wolfram
+* Interesting read though
 
 _Rating_: 3.5/5
 
