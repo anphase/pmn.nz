@@ -2,10 +2,12 @@
 layout: page
 title: Books
 permalink: /books/
-date:   2019-08-17
+date:   2019-08-25
 ---
 
 I try to read books every now and again. I mainly read non-fiction books covering a wide range of topics that interest me. I will rate the books out of 5 and add an asterisk * to books that stood out to me and write a blurb where I can.
+
+> I cannot remember the books I've read any more than the meals I have eaten; even so, they have made me.
 
 *last updated: {{ page.date }}*
 
@@ -23,12 +25,30 @@ _Thoughts so far_
 * wow
 
 ---
-#### _Failure: Why Science Is so Successful_
+#### _Failure: Why Science Is So Successful_
+{: #Why_Science_Is_So_Successful}
 
 ---  by Stuart Firestein
   
 _Thoughts so far_
 * failure is a lot more involved than I thought
+
+---
+
+#### _Understanding the Brain: From Cells to Behaviour to Cognition_
+{: #Understanding_the_Brain}
+
+--- by John E. Downling
+
+_Thoughts so far_
+* The way the brain works is very different from the way artificial neural networks work. 
+* Brain function is way more nuanced and complex. 
+* I love books like this that touch on a topic that we understand a lot about but also know less than there is to know about.
+* There are lots of:
+
+> * we don't fully understand why ...
+
+> * the [function/mechanism] of [this processes/thing] is not yet known ...
 
 ---
 
