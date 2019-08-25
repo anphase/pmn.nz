@@ -13,8 +13,10 @@ I'm really making this my space. As in a space that's mine. So I've gone further
 
 Fails
 ---
-As much as I like to share what's worked and all things bright and beautiful, I think it's important to share my [fails](../fails) -- there are quite a few of them. I've linked them in the side bar and I'll keep updating the list as I go. The list will continue to grow, no doubt.
+As much as I like to share what's worked and all things bright and beautiful, I think it's important to share my [fails][1] -- there are quite a few of them. I've linked them in the side bar and I'll keep updating the list as I go. The list will continue to grow, no doubt.
 
 Going dark
 ---
 I've also decided to throw in a new coat of paint on the site that's slightly darker and easier on the eyes. Hopefully it looks better.
+
+[1]: ../fails
