@@ -29,13 +29,14 @@ _WIP: I'm working on listing all the books I have notes on_
 [Kinds Of Minds: Toward An Understanding Of Consciousness](#Kinds_of_Minds)<br>
 [Possible Minds: Twenty-Five Ways of Looking at AI](#Possible_Minds)<br>
 [Range: Why Generalists Triumph in a Specialized World](#Range)<br>
+[Reclaim Your Brain: How to Calm Your Thoughts, Heal Your Mind, and Bring Your Life Back Under Control](#Reclaim_Your_Brain)<br>
+[Reductionism in Art and Brain Science: Bridging the 2 Cultures](#Reductionism_in_Art_and_Brain_Science)<br>
 [The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams and God](#The_Accidental_Mind)<br>
 [The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain from Vienna 1900 to the Present](#The_Age_of_Insight)<br>
 [Thinking in Systems: A Primer](#Thinking_in_Systems)<br>
 [Ultra-learning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](#Ultra_Learing)\* <br> 
 [Understanding the Brain: From Cells to Behaviour to Cognition](#Understanding_the_Brain)<br>
 [Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness](#Why_Red_Doesnt_Sound_Like_a_Bell)\* <br>
-
 ---
 
 **Currently reading** &#9660;
@@ -265,7 +266,32 @@ _Rating_: 4/5
 
 ---
 
+#### _Reductionism in Art and Brain Science: Bridging the 2 Cultures_
+{: #Reductionism_in_Art_and_Brain_Science}
 
+-- by Eric R. Kandel
 
+_Thoughts_
+* Reductionism in art 🖼 taps into mechanisms in the brain for interpreting reality, in colour, shapes, edges, faces etc.
+* I've gained a deeper appreciation for reductionist art because of this book.
+* [Goodreads](https://www.goodreads.com/book/show/29587078-reductionism-in-art-and-brain-science)
+
+_Rating_: 4/5
+
+---
+
+#### _Reclaim Your Brain: How to Calm Your Thoughts, Heal Your Mind, and Bring Your Life Back Under Control_
+{: #Reclaim_Your_Brain}
+
+-- by Joseph A. Annibali
+
+_Thoughts_
+*  	I enjoyed reading this, it covers the mechanisms of the brain and how to manage oneself.
+* One of the key takeaways: find what energises you/fills your spiritual well. Do it bit by bit and let it expand 
+* [Goodreads](https://www.goodreads.com/book/show/25310679-reclaim-your-brain)
+
+_Rating_: 4/5
+
+---
 
 
