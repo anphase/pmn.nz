@@ -2,7 +2,7 @@
 layout: page
 title: Books
 permalink: /books/
-date:   2019-09-10
+date:   2019-09-11
 ---
 
 I enjoy reading other people's reading lists so I'm writing my own -- hopefully someone finds it interesting. I will rate the books out of 5 and add an asterisk * to books that stood out to me and write some pointers blurb where I can.
@@ -24,10 +24,13 @@ _WIP: I'm working on listing all the books I have notes on_
 [Deep Work: Rules for Focused Success in a Distracted World](#Deep_Work)<br>
 [Failure: Why Science Is So Successful](#Why_Science_Is_So_Successful)<br>
 [Gene Machine: The Race to Decipher the Secrets of the Ribosome](#Gene_Machine)<br>
+[Hands-On Data Structures and Algorithms with Python: Write complex and powerful code using the latest features of Python 3.7, 2nd Edition](https://www.goodreads.com/book/show/42645843-hands-on-data-structures-and-algorithms-with-python)<br>
+[In Praise of Wasting Time](In_Praise_of_Wasting_Time)<br>
 [Kinds Of Minds: Toward An Understanding Of Consciousness](#Kinds_of_Minds)<br>
 [Possible Minds: Twenty-Five Ways of Looking at AI](#Possible_Minds)<br>
 [Range: Why Generalists Triumph in a Specialized World](#Range)<br>
 [The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams and God](#The_Accidental_Mind)<br>
+[The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain from Vienna 1900 to the Present](#The_Age_of_Insight)<br>
 [Thinking in Systems: A Primer](#Thinking_in_Systems)<br>
 [Ultra-learning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](#Ultra_Learing)\* <br> 
 [Understanding the Brain: From Cells to Behaviour to Cognition](#Understanding_the_Brain)<br>
@@ -80,6 +83,17 @@ _Thoughts so far_
 _Thoughts so far_
 * This has been on my shelf for a while and I've only heard good things
 * [Goodreads](https://www.goodreads.com/book/show/3828902-thinking-in-systems)
+
+---
+
+#### _Hands-On Data Structures and Algorithms with Python: Write complex and powerful code using the latest features of Python 3.7, 2nd Edition_
+{: #Hands-On_Data_Structures_and_Algorithms_with_Python}
+
+--- by Dr. Basant Agarwal
+
+_Thoughts so far_
+* Slow start but I've picked up some good stuff already
+* [Goodreads](https://www.goodreads.com/book/show/42645843-hands-on-data-structures-and-algorithms-with-python)
 
 ---
 
@@ -206,7 +220,7 @@ _Thoughts_
 
 _Rating_: 4.5/5
 
---
+---
 
 #### _Kinds Of Minds: Toward An Understanding Of Consciousness_
 {: #Kinds_of_Minds}
@@ -221,4 +235,37 @@ _Thoughts_
 
 _Rating_: 4/5
 
---
+---
+
+#### _In Praise of Wasting Time_
+{: #In_Praise_of_Wasting_Time}
+
+-- by Alan Lightman
+
+_Thoughts_
+* Very short and interesting. It's refreshing to know that it's OK to waste time... sometimes. 
+* One of the key takeaways: a prepared mind wandering is _necessary_ for creativity.
+* [Goodreads](https://www.goodreads.com/en/book/show/36580668)
+
+_Rating_: 3.5/5
+
+---
+
+#### _The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain from Vienna 1900 to the Present_
+{: #The_Age_of_Insight}
+
+-- by Eric R. Kandel
+
+_Thoughts_
+* I enjoyed this more than I thought I would. 
+* Basically, lots went down in the development of art, modern medicine and science from Vienna 1990 - Einstein, painters/artists, psychology, Freud, Jung etc. to DNA.
+* [Goodreads](https://www.goodreads.com/book/show/12263681-the-age-of-insight)
+
+_Rating_: 4/5
+
+---
+
+
+
+
+
