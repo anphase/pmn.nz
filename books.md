@@ -37,6 +37,7 @@ _Work in progress..._
 [Thinking in Systems: A Primer](#Thinking_in_Systems)<br>
 [Ultra-learning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](#Ultra_Learing)\* <br> 
 [Understanding the Brain: From Cells to Behaviour to Cognition](#Understanding_the_Brain)<br>
+[When: The Scientific Secrets of Perfect Timing](#When)\* <br>
 [Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness](#Why_Red_Doesnt_Sound_Like_a_Bell)\* <br>
 
 ---
@@ -308,6 +309,21 @@ _Thoughts_
 * [Goodreads](https://www.goodreads.com/book/show/41571759-conscious)
 
 _Rating_: 4/5
+
+---
+
+#### _When: The Scientific Secrets of Perfect Timing_
+{: #When}
+
+-- by Daniel H. Pink
+
+_Thoughts_
+* Eye opening read
+* I had no idea we all have chronotypes that determine out ability to perform across the day - the difference between these times can be profound
+* I love books like this that reveal or expand on things in plain sight
+* [Goodreads](https://www.goodreads.com/book/show/35412097-when)
+
+_Rating_: 5/5
 
 ---
 
