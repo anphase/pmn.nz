@@ -2,16 +2,16 @@
 layout: page
 title: Books
 permalink: /books/
-date:   2019-09-11
+date:   2019-09-12
 ---
 
-I enjoy reading other people's reading lists so I'm writing my own -- hopefully someone finds it interesting. I will rate the books out of 5 and add an asterisk * to books that stood out to me and write some pointers blurb where I can.
+I enjoy reading other people's book lists so I'm writing my own -- hopefully someone finds it interesting. I rate the books out of 5 and add an asterisk * to books that stood out to me. I've also written a blurb with my thoughts or some takeaways where I can. I generally read non-fiction books on a variety of topics from art to science and engineering but I do dabble in fiction here and there.
 
 > I cannot remember the books I've read any more than the meals I have eaten; even so, they have made me.
 
 *last updated: {{ page.date }}*
 
-_WIP: I'm working on listing all the books I have notes on_
+_Work in progress..._
 
 ---
 
@@ -21,10 +21,11 @@ _WIP: I'm working on listing all the books I have notes on_
 <!-- Sort Alphabetical -->
 [A Primate's Memoir: A Neuroscientist’s Unconventional Life Among the Baboons](#A_Primates_Memoir)<br>
 [Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones](#Atomic_Habits)\* <br>
+[Conscious: A Brief Guide of the Fundamental Mystery of the Mind](#Conscious)<br>
 [Deep Work: Rules for Focused Success in a Distracted World](#Deep_Work)<br>
-[Failure: Why Science Is So Successful](#Why_Science_Is_So_Successful)<br>
+[Failure: Why Science Is So Successful](#Failure)<br>
 [Gene Machine: The Race to Decipher the Secrets of the Ribosome](#Gene_Machine)<br>
-[Hands-On Data Structures and Algorithms with Python: Write complex and powerful code using the latest features of Python 3.7, 2nd Edition](https://www.goodreads.com/book/show/42645843-hands-on-data-structures-and-algorithms-with-python)<br>
+[Hands-On Data Structures and Algorithms with Python: Write complex and powerful code using the latest features of Python 3.7, 2nd Edition](#Hands-On_Data_Structures_and_Algorithms_with_Python)<br>
 [In Praise of Wasting Time](In_Praise_of_Wasting_Time)<br>
 [Kinds Of Minds: Toward An Understanding Of Consciousness](#Kinds_of_Minds)<br>
 [Possible Minds: Twenty-Five Ways of Looking at AI](#Possible_Minds)<br>
@@ -37,6 +38,7 @@ _WIP: I'm working on listing all the books I have notes on_
 [Ultra-learning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](#Ultra_Learing)\* <br> 
 [Understanding the Brain: From Cells to Behaviour to Cognition](#Understanding_the_Brain)<br>
 [Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness](#Why_Red_Doesnt_Sound_Like_a_Bell)\* <br>
+
 ---
 
 **Currently reading** &#9660;
@@ -54,7 +56,7 @@ _Thoughts so far_
 
 ---
 #### _Failure: Why Science Is So Successful_
-{: #Why_Science_Is_So_Successful}
+{: #Failure}
 
 ---  by Stuart Firestein
   
@@ -286,9 +288,24 @@ _Rating_: 4/5
 -- by Joseph A. Annibali
 
 _Thoughts_
-*  	I enjoyed reading this, it covers the mechanisms of the brain and how to manage oneself.
+*  I enjoyed reading this, it covers the mechanisms of the brain and how to manage oneself.
 * One of the key takeaways: find what energises you/fills your spiritual well. Do it bit by bit and let it expand 
 * [Goodreads](https://www.goodreads.com/book/show/25310679-reclaim-your-brain)
+
+_Rating_: 4/5
+
+---
+
+#### _Conscious: A Brief Guide of the Fundamental Mystery of the Mind_
+{: #Conscious}
+
+-- by Annaka Harris
+
+_Thoughts_
+* One interesting insight from the book is that we don’t seem to consciously choose to do something. Some other processes, experience, the environment, circumstances etc. decide what we do but we get a sense of agency about what we’ve done. 
+* We have the illusion that we are in control and yet the reality we perceive is an edited version of the recent past - our brain processes are in a constant state of editing to synchronise sounds and touch and sights into a coherent whole. 
+* Events unfold and we consciously witness them.
+* [Goodreads](https://www.goodreads.com/book/show/41571759-conscious)
 
 _Rating_: 4/5
 
