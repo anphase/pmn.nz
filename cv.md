@@ -62,13 +62,9 @@ Picked up a few small projects to compliment my studies
 
 ### Tech stack
 Databases: MySQL <br>
-Development: git, Jenkins <br>
 Frameworks: Qt <br>
-Hardware: Avaya IP Office, TCP/IP, switches, routers and modems, NEC <br>
 Languages: Python, JavaScript, Java, HTML, CSS <br>
-Mobile development: Android <br>
 Operating systems: Linux (Ubuntu), Windows <br>
-Platforms and APIs: Xero, WordPress <br>
 
 ----
 2008 - 2009
