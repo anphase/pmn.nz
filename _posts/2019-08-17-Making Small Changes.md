@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Making Small Changes
+title:  Making small changes
 categories: productivity
 date:   2019-08-18 23:40:00 +1200
 ---
@@ -13,5 +13,5 @@ I love this idea and it's one more thing I'm going to be more deliberate about i
 I wrote so many notes on this book, it almost felt like I was quoting every sentence! No matter, I will go through the notes and post my full review on [Saccader][3].
 
 [1]: https://jamesclear.com/atomic-habits
-[2]: ../books/#Atomic_Habits "thoughts on Atomic Habits"
+[2]: ../books/#Atomic_Habits "my thoughts on Atomic Habits"
 [3]: https://saccader.com
