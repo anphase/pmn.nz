@@ -2,12 +2,12 @@
 layout: page
 title: Books
 permalink: /books/
-date:   2019-09-12
+date:   2019-09-13
 ---
 
-I enjoy reading other people's book lists so I'm writing my own -- hopefully someone finds it interesting. I rate the books out of 5 and add an asterisk * to books that stood out to me. I've also written a blurb with my thoughts or some takeaways where I can. I generally read non-fiction books on a variety of topics from art to science and engineering but I do dabble in fiction here and there.
+I enjoy reading other people's book lists so I'm writing my own -- hopefully someone finds it interesting. I rate the books out of 5 and add an asterisk * to books that stood out to me. I've also written a blurb with my thoughts or some takeaways where I can. I generally read non-fiction books on a variety of topics from art to science and engineering, but I do dabble in fiction here and there.
 
-> I cannot remember the books I've read any more than the meals I have eaten; even so, they have made me.
+> I cannot remember the books I've read any more than the meals I have eaten; even so, they have made me. <br> --- Ralph Waldo Emerson
 
 *last updated: {{ page.date }}*
 
@@ -261,7 +261,7 @@ _Rating_: 3.5/5
 
 _Thoughts_
 * I enjoyed this more than I thought I would. 
-* Basically, lots went down in the development of art, modern medicine and science from Vienna 1990 - Einstein, painters/artists, psychology, Freud, Jung etc. to DNA.
+* Basically, lots went down in the development of art, modern medicine and science in Vienna from 1900 - Einstein, painters/artists, psychology, Freud, Jung etc. to DNA.
 * [Goodreads](https://www.goodreads.com/book/show/12263681-the-age-of-insight)
 
 _Rating_: 4/5
