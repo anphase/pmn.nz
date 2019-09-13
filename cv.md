@@ -34,11 +34,12 @@ Databases: MySQL, PostgreSQL, SQlite3 <br>
 Development/CI: git, Jenkins <br>
 Frameworks: Django, Flask <br>
 Languages: Python, PHP, JavaScript, HTML, CSS <br>
+Messaging & Caching: Redis, Memcached, RabbitMQ, Apache Kafka <br>
 Operating systems: Linux (Ubuntu, Centos, Fedora), MacOS, Windows <br>
-Platforms and APIs: Xero, Xibo, Knack, Zapier, MYOB EXO, WordPress, Stripe, PayPal <br>
-System/Service Managers: systemd, Supervisor
+Platforms and APIs: Xero, Xibo, Knack, Zapier, MYOB EXO, WordPress, Stripe, PayPal, Plesk <br>
+System/Service Managers: systemd, Supervisor <br>
 Testing: Selenium, pytest <br>
-Web Servers/Interfaces: Apache, nginx, Gunicorm
+Web Servers/Interfaces: Apache, nginx, Gunicorm <br>
 
 ----
 2012 - 2017 
@@ -46,7 +47,7 @@ Web Servers/Interfaces: Apache, nginx, Gunicorm
 Industry: Telecommunications Sales and Support
 
 ### Tech stack
-Certifications: Avaya APSS - SME Communications (expired 😔), Patton Certified Specialist <br>
+Certifications: Avaya APSS - SME Communications, Patton Certified Specialist <br>
 Communications tech: VoIP, SIP, ISDN, POTs, Wi-Fi <br>
 Databases: MySQL <br>
 Development: git, Jenkins <br>
