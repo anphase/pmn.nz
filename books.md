@@ -5,7 +5,10 @@ permalink: /books/
 date:   2019-09-13
 ---
 
-I enjoy reading other people's book lists so I'm writing my own -- hopefully someone finds it interesting. I rate the books out of 5 and add an asterisk * to books that stood out to me. I've also written a blurb with my thoughts or some takeaways where I can. I generally read non-fiction books on a variety of topics from art to science and engineering, but I do dabble in fiction here and there.
+I enjoy reading other people's book lists so I've written my own -- hopefully someone finds it interesting. 
+The books are rated out of 5 and I've added an asterisk * to books that stood out to me. 
+I've also written a blurb with my thoughts or some takeaways where I can. 
+I generally read non-fiction books on a variety of topics from art and business to science and engineering. I do dabble in fiction here and there.
 
 > I cannot remember the books I've read any more than the meals I have eaten; even so, they have made me. <br> --- Ralph Waldo Emerson
 
@@ -26,6 +29,7 @@ _Work in progress..._
 [Failure: Why Science Is So Successful](#Failure)<br>
 [Gene Machine: The Race to Decipher the Secrets of the Ribosome](#Gene_Machine)<br>
 [Hands-On Data Structures and Algorithms with Python: Write complex and powerful code using the latest features of Python 3.7, 2nd Edition](#Hands-On_Data_Structures_and_Algorithms_with_Python)<br>
+[Healing Back Pain: The Mind-Body Connection](#Healing_Back_Pain)<br>
 [In Praise of Wasting Time](In_Praise_of_Wasting_Time)<br>
 [Kinds Of Minds: Toward An Understanding Of Consciousness](#Kinds_of_Minds)<br>
 [Possible Minds: Twenty-Five Ways of Looking at AI](#Possible_Minds)<br>
@@ -327,4 +331,21 @@ _Rating_: 5/5
 
 ---
 
+#### _Healing Back Pain: The Mind-Body Connection_
+{: #Healing_Back_Pain}
+
+-- by John E. Sarno
+
+
+_Thoughts_
+* I heard good things about this book and I was curious -- I don't actually have and I've never really had back pain
+* I enjoyed this book
+* The premise is that TMS (Tension Myoneural Syndrome) and psychological factors can cause back pain - not just injury
+* Additionally you can overcome this pain, sometimes instantaneously after years of pain just by understanding what it is
+* It seems to work based on what I've heard people say in random places -- I think there's something to it
+* [Goodreads](https://www.goodreads.com/book/show/144873.Healing_Back_Pain)
+
+_Rating_: 5/5
+
+---
 

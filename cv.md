@@ -36,7 +36,9 @@ Frameworks: Django, Flask <br>
 Languages: Python, PHP, JavaScript, HTML, CSS <br>
 Operating systems: Linux (Ubuntu, Centos, Fedora), MacOS, Windows <br>
 Platforms and APIs: Xero, Xibo, Knack, Zapier, MYOB EXO, WordPress, Stripe, PayPal <br>
+System/Service Managers: systemd, Supervisor
 Testing: Selenium, pytest <br>
+Web Servers/Interfaces: Apache, nginx, Gunicorm
 
 ----
 2012 - 2017 
