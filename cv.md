@@ -59,7 +59,7 @@ Web Servers/Interfaces: Apache, Nginx, Gunicorn <br>
 ----
 2012 - 2017 
 ### Telcotech NZ Ltd., Role: Tech. Specialist
-Industry: Telecommunications Sales and Support
+Industry: Telecommunications Hardware Installatins, Support and Sales
 
 ### Tech stack
 Certifications: Avaya APSS - SME Communications, Patton Certified Specialist <br>
@@ -67,7 +67,7 @@ Communications tech: VoIP, SIP, ISDN, POTs, Wi-Fi <br>
 Databases: MySQL <br>
 Development: git, Jenkins <br>
 Frameworks: Flask, Bootstrap, Pure CSS <br>
-Hardware: Avaya IP Office, TCP/IP, switches, routers and modems, NEC <br>
+Hardware: Avaya IP Office, TCP/IP, switches, routers and modems, NEC, cabling <br>
 Languages: Python, JavaScript, VB.NET/C#, HTML, CSS <br>
 Mobile development: Android <br>
 Operating systems: Linux (Ubuntu), Windows <br>
