@@ -43,6 +43,7 @@ _Work in progress..._
 [Understanding the Brain: From Cells to Behaviour to Cognition](#Understanding_the_Brain)<br>
 [When: The Scientific Secrets of Perfect Timing](#When)\* <br>
 [Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness](#Why_Red_Doesnt_Sound_Like_a_Bell)\* <br>
+[The Spirit of Kaizen: Creating Lasting Excellence One Step at a Time](#The_Spirit_of_Kaizen)<br>
 
 ---
 
@@ -349,3 +350,20 @@ _Rating_: 5/5
 
 ---
 
+---
+
+#### _The Spirit of Kaizen: Creating Lasting Excellence One Step at a Time_
+{: #The_Spirit_of_Kaizen}
+
+-- by  Robert Maurer
+
+
+_Thoughts_
+* Kaizen means good change 
+* Great book on making small - sometimes ridiculously small progress to 
+
+* [Goodreads](https://www.goodreads.com/book/show/15854744-the-spirit-of-kaizen)
+
+_Rating_: 5/5
+
+---
