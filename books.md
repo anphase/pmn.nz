@@ -39,7 +39,7 @@ _Work in progress..._
 [The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams and God](#The_Accidental_Mind)<br>
 [The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain from Vienna 1900 to the Present](#The_Age_of_Insight)<br>
 [Thinking in Systems: A Primer](#Thinking_in_Systems)<br>
-[Ultra-learning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](#Ultra_Learing)\* <br> 
+[Ultra-learning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](#Ultra_Learning)\* <br> 
 [Understanding the Brain: From Cells to Behaviour to Cognition](#Understanding_the_Brain)<br>
 [When: The Scientific Secrets of Perfect Timing](#When)\* <br>
 [Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness](#Why_Red_Doesnt_Sound_Like_a_Bell)\* <br>
