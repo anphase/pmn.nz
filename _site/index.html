@@ -107,6 +107,74 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/productivity/2021/06/02/How-to-install-the-latest-Python-on-the-Raspberry-Pi/">
+        How to Install the Latest Version of Python on the Raspberry Pi
+      </a>
+    </h1>
+
+    <span class="post-date">02 Jun 2021</span>
+
+    <p>I love tinkering with the Raspberry Pis, but one annoying thing about the <a href="&quot;https://www.raspberrypi.org/software/&quot;">Raspberry Pi OS</a>  (previously called Raspbian) is that it doesn’t always ship with the latest version of Python. As of this writing, that’s version 3.9.5. To update this to the latest version, you just need to modify any references to 3.9.5 in this tutorial to the version you want.</p>
+
+<p>To install the latest version of Python, we have to build it from the source and install it. I will walk through the steps that I followed to get up and running.</p>
+
+<h2 id="build">Build</h2>
+<p>To get started, we need to fire up the terminal and install the dependencies.:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get update
+
+<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> build-essential libbz2-dev libdb5.3-dev libexpat1-dev libffi-dev libgdbm-dev liblzma-dev libncurses5-dev libncursesw5-dev libreadline6-dev libsqlite3-dev libssl-dev tk-dev zlib1g-dev 
+</code></pre></div></div>
+
+<p>Now we download the latest version of Python using <em>wget</em>. At this time, the newest version is Python-3.9.5. You can check the listings from the ftp site <a href="&quot;https://www.python.org/ftp/python/&quot;">here</a>:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tar.xz
+</code></pre></div></div>
+
+<p>Extract the files with <em>tar</em>:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">tar </span>xf Python-3.9.5.tar.xz
+</code></pre></div></div>
+
+<p>Enter extracted directory and compile. Running 4 simultaneous jobs should be good for the Pi 3/4 with the <em>make</em> command:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>Python-3.9.5
+./configure <span class="nt">--prefix</span><span class="o">=</span>/usr/local/opt/python-3.9.5
+make <span class="nt">-j</span> 4
+</code></pre></div></div>
+<h2 id="install">Install</h2>
+<p>Now install with:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>make altinstall
+</code></pre></div></div>
+
+<p>You can now remove the files that you downloaded and unpacked:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ..
+<span class="nb">sudo rm</span> <span class="nt">-r</span> Python-3.9.5
+<span class="nb">rm </span>Python-3.9.5.tar.xz
+</code></pre></div></div>
+
+<p>Create an alias for your newly installed Python in your <em>.bashrc</em> file.
+Open the <em>.bashrc</em> file with your chosen editor, vim, nano, etc. I’ll use nano in this example:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano ~/.bashrc
+</code></pre></div></div>
+<p>Add the following at the end of the file:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">python</span><span class="o">=</span>/usr/local/opt/python-3.9.5/bin/python3.9
+</code></pre></div></div>
+
+<h2 id="run">Run</h2>
+<p>Restart your terminal or reload bash:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>. ~/.bashrc
+</code></pre></div></div>
+
+<p>Verify your Python version:</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python <span class="nt">--version</span>
+</code></pre></div></div>
+<p>and you should get:</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>Python 3.9.5
+</code></pre></div></div>
+<p>That’s it! Now you should be ready to start building your next cool project with the latest version of Python on your Raspberry Pi.
+Happy hacking :-)</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/productivity/2021/03/11/The-Unreasonable-Power-of-Webhooks/">
         The Unreasonable Power of Webhooks
       </a>
@@ -197,30 +265,6 @@ One of the biggest lessons from the book is the power of making small changes an
 
 <h2 id="going-dark">Going dark</h2>
 <p>I’ve also decided to throw in a new coat of paint on the site that’s slightly darker and easier on the eyes. Hopefully it looks better.</p>
-
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/mind/development/2018/04/24/Tools-as-extensions-of-the-mind/">
-        Tools as extensions of the mind
-      </a>
-    </h1>
-
-    <span class="post-date">24 Apr 2018</span>
-
-    <p>Philosophers have long speculated that our minds are not just in our brains, they are embodied, that is, our bodies form part of our minds. Our bodies do not just consist of peripheral components that are involved in input and output - they do some processing too. They release chemicals and process signals as well - some of which are processed further or interpreted in the brain to give us complex feelings about things and others that fall below the threshold of consciousness. Shockingly, <em>most</em> of the processes going on in our bodies fall below this threshold. It gives us the sense and perspective of how consciousness is really just the tip of the iceberg, if that.</p>
-
-<p>Now there’s a theory that was put forward by Andy Clark and David Chalmers and others, that they call <a href="https://www.amazon.com/Supersizing-Mind-Embodiment-Cognitive-Philosophy-ebook/dp/B004MDLRQW/ref=mt_kindle?_encoding=UTF8&amp;me=">Extended Mind</a>, that takes this idea further. This theory says that objects in the external environment can form part of the mind as well - that tools out there can be considered part of our cognitive apparatus. This is fascinating and it ties in nicely with some things I’ve read about lately.</p>
-
-<p>First of all, this idea is not new, others have alluded to it and Andy Clark and crew acknowledge this. Richard Dawkins’ idea of the <a href="https://www.amazon.com/Extended-Phenotype-Oxford-Landmark-Science/dp/0198788916/ref=asap_bc?ie=UTF8">Extended Phenotype</a> comes to mind - although the idea is wholly different from Extended Mind it’s got a familiar ring to it. In Extended Phenotype, Dawkins explores the idea that genetic expression is not limited to just animal bodies but extends to the things they do and make in the environment. Think beavers and their dams and how that affects the environment. The dam is a genetic trait that can alter the environment and it’s subject to natural selection/evolution just like an organ attached to the animal! This trait is controlled by genes that most likely affect the mind of the beaver to make it want to make a dam. Or give one.</p>
-
-<p>So back to minds. A study that comes to mind is the one that demonstrated that the <a href="https://www.journals.uchicago.edu/doi/10.1086/691462">presence of a mobile phone lowers cognitive abilities</a> in people. The mere presence of it - not use. This can be explained in terms of the Extended Mind - the brain considers the mobile phone with all it’s capabilities part of its computational space. It knows roughly the kinds of things that the phone is capable of and would rather have it do those tasks while it perhaps drives the sequential steps required to produce the desired outcome. Phones are connected to the internet, to Google and Wikipedia and all, they have calculators and GPS and all sorts of apps that can do a whole lot better than the brain can and at very little cost…to the brain - cost here being in terms of effort/energy/cognitive load.</p>
-
-<p>So this had me thinking about the tools that we use in our daily lives as part of our minds(!) and whether or not thinking about them as such would change what tools we use and how we use them. I mean, these tools can give us superpowers but they can also reduce our umm… natural cognitive abilities. Like muscles and virtually all the systems of the body - if you don’t use it, you lose it - or more likely it will get a new job in the case of neurons. It makes me think about the <a href="https://en.wikipedia.org/wiki/Learned_helplessness">learned helplessness theory</a> due to an over-reliance on the tools we use or perhaps the fact that <a href="https://fee.org/resources/i-pencil/">no one really knows how to make anything</a>. Of course that’s the stuff that progress is built on, competencies on top of competencies. It really does make me think about the tools I use and how I would want things to be.</p>
-
-<p>I’m was not deliberate about the ‘what’ and ‘how’ of the tools I use but after considering this, I am starting to think more about it, and so should you.</p>
 
 
   </div>
