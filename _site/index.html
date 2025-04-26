@@ -63,7 +63,7 @@
       
         
           
-            <a class="sidebar-nav-item" href="/books/">Books</a>
+            <a class="sidebar-nav-item" href="/blog/">Blog</a>
           
         
       
@@ -85,6 +85,12 @@
       
         
           
+            <a class="sidebar-nav-item active" href="/">Home</a>
+          
+        
+      
+        
+          
             <a class="sidebar-nav-item" href="/projects/">Projects</a>
           
         
@@ -92,194 +98,323 @@
         
       
         
+      
+        
           
+            <a class="sidebar-nav-item" href="/books/index.html">Books</a>
+          
+        
+      
+        
+      
         
       
     </nav>
 
-    <p>&copy; 2021. All rights reserved.</p>
+    <p>&copy; 2025. All rights reserved.</p>
   </div>
 </div>
 
 
     <div class="content container">
-      <div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/productivity/2021/06/02/How-to-install-the-latest-Python-on-the-Raspberry-Pi/">
-        How to Install the Latest Version of Python on the Raspberry Pi
-      </a>
-    </h1>
-
-    <span class="post-date">02 Jun 2021</span>
-
-    <p>I love tinkering with the Raspberry Pis, but one annoying thing about the <a href="https://www.raspberrypi.org/software/">Raspberry Pi OS</a>  (previously called Raspbian) is that it doesn’t always ship with the latest version of Python. As of this writing, that’s Python version 3.9.5. 
-<em>(Note: To use this tutorial for a newer version of Python, you just need to modify any references to <strong>3.9.5</strong> to the version you want.)</em></p>
-
-<p>To install the latest version of Python, we have to build it from the source and install it. I will walk through the steps that I followed to get up and running.</p>
-
-<h2 id="build">Build</h2>
-<p>To get started, we need to fire up the terminal and install the dependencies.:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get update
-
-<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> build-essential libbz2-dev libdb5.3-dev libexpat1-dev libffi-dev libgdbm-dev liblzma-dev libncurses5-dev libncursesw5-dev libreadline6-dev libsqlite3-dev libssl-dev tk-dev zlib1g-dev 
-</code></pre></div></div>
-
-<p>Now we download the latest version of Python using <em>wget</em>. At this time, the newest version is Python-3.9.5. You can check the listings from the ftp site <a href="https://www.python.org/ftp/python/">here</a>:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tar.xz
-</code></pre></div></div>
-
-<p>Extract the files with <em>tar</em>:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">tar </span>xf Python-3.9.5.tar.xz
-</code></pre></div></div>
-
-<p>Enter extracted directory and compile. Running 4 simultaneous jobs should be good for the Pi 3/4 with the <em>make</em> command:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>Python-3.9.5
-./configure <span class="nt">--prefix</span><span class="o">=</span>/usr/local/opt/python-3.9.5
-make <span class="nt">-j</span> 4
-</code></pre></div></div>
-<h2 id="install">Install</h2>
-<p>Now install with:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>make altinstall
-</code></pre></div></div>
-
-<p>You can now remove the files that you downloaded and unpacked:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ..
-<span class="nb">sudo rm</span> <span class="nt">-r</span> Python-3.9.5
-<span class="nb">rm </span>Python-3.9.5.tar.xz
-</code></pre></div></div>
-
-<p>Create an alias for your newly installed Python in your <em>.bashrc</em> file.
-Open the <em>.bashrc</em> file with your chosen editor, vim, nano, etc. I’ll use nano in this example:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano ~/.bashrc
-</code></pre></div></div>
-<p>Add the following at the end of the file:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">python</span><span class="o">=</span>/usr/local/opt/python-3.9.5/bin/python3.9
-</code></pre></div></div>
-
-<h2 id="run">Run</h2>
-<p>Restart your terminal or reload bash:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>. ~/.bashrc
-</code></pre></div></div>
-
-<p>Verify your Python version:</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python <span class="nt">--version</span>
-</code></pre></div></div>
-<p>and you should get:</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>Python 3.9.5
-</code></pre></div></div>
-<p>That’s it! Now you should be ready to start building your next cool project with the latest version of Python on your Raspberry Pi.
-Happy hacking :-)</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/productivity/2021/03/11/The-Unreasonable-Power-of-Webhooks/">
-        The Unreasonable Power of Webhooks
-      </a>
-    </h1>
-
-    <span class="post-date">11 Mar 2021</span>
-
-    <p>Webhooks are powerful. By themselves, they are relatively simple but can be an integral part of very complex systems. The key to their power is the modularity of systems. A lot of services we use work together with other services to get the job done.</p>
-
-<p>Say you have an online store. You may use one service for your storefront, another service for processing payments, another for generating invoices, accounting, reporting, tracking errors, support tickets, etc. Unless you use a service that does it all, you may need a simple way to connect these parts of your store. Webhooks can help with that.</p>
-
-<p>At the core, webhooks are signals - callbacks made with an HTTP request. They are used to announce some event or state of one system to another system or multiple systems. They are like the long axons in the brain that carry signals from one region to another. While the signals may not necessarily hold a lot of data, they can represent a lot of information and get a lot done.</p>
-
-<p>What makes webhooks great is that they are relatively simple to implement and utilise instead of APIs or sockets. Webhooks are event-driven, which makes them useful for a lot of things, but not all.</p>
-
-<h3 id="example-time">Example time</h3>
-<p>Let’s say that every time someone places an order in your store, you want to update a dashboard that you’ve set up. 
-Now, let’s say someone has just placed an order for $41.99 (so close!), and their invoice number is 01023. We’ll call the values Amount and Invoice.</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Amount = $41.99
-Invoice = 01023
-Key = ultra-SeCrEtE-key
-</code></pre></div></div>
-<p>You’ll notice I added a ‘Key’ there. Using some key or token is one way of ensuring that the message originated from a source you trust.</p>
-
-<p>The request sent from your storefront application to your dashboard app may look something like this, depending on how you chose to send it:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://yourdashboard.app/orders?Amount=$41.99&amp;Invoice=01023&amp;Key=ultra-SeCrEtE-key
-</code></pre></div></div>
-<p>And that’s it. Your dashboard is updated every time there is an order placed. The simplicity of the webhook makes it a great way to connect different services. The complexities of the services used are hidden behind the simple structure of the interaction between the services using webhooks.</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/productivity/2019/09/12/I-have-no-idea/">
-        I have no idea
-      </a>
-    </h1>
-
-    <span class="post-date">12 Sep 2019</span>
-
-    <p>This website doesn’t have any tracking or analytics set up. I have no idea who’s reading or where they are coming from. I think this is fine.</p>
-
-<p>By focusing on the process of documenting content and communicating ideas, I get better at it and I’m intrinsically motivated to do more of it. I’ve gained, and continue to gain, a lot of value from the work that other people have put out there and I feel obligated to make some kind of contribution.</p>
-
-<p>I recently finished reading the book <a href="../books/#Ultra_Learning" title="my thoughts on Ultra-learning book">Ultra-learning</a> and it ties in brilliantly with my commitment to being a life long learner - I am definelty applying some of the techniques in there. I think in this time, it’s very important to get good at whatever it is you do, not just for your own sake but also to the benefit of others who are direclty or indirectly affected by your work.</p>
-
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/productivity/2019/08/18/Making-Small-Changes/">
-        Making small changes
-      </a>
-    </h1>
-
-    <span class="post-date">18 Aug 2019</span>
-
-    <p>I’ve just finished reading James Clear’s book, <a href="https://jamesclear.com/atomic-habits">Atomic Habits</a>, and I found it quite <a href="../books/#Atomic_Habits" title="my thoughts on Atomic Habits">brilliant</a>.
-One of the biggest lessons from the book is the power of making small changes and how they compound over time - it’s articulated beautifully in the book. I’m paraphrasing here:</p>
-<blockquote>
-  <p>you get what you repeat – time will magnify it</p>
-</blockquote>
-
-<p>I love this idea and it’s one more thing I’m going to be more deliberate about in my work flow.</p>
-
-<p>I wrote so many notes on this book, it almost felt like I was quoting every sentence! No matter, I will go through the notes and post my full review on <a href="https://saccader.com">Saccader</a>.</p>
-
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/update/2019/08/04/Panashe's-panache-panacea/">
-        Panashe's Panache Panacea
-      </a>
-    </h1>
-
-    <span class="post-date">04 Aug 2019</span>
-
-    <p>Well, I’ve decided to spruce things up a bit.</p>
-
-<h2 id="panashes-panache---panashes-panache-panacea">Panashe’s panache -&gt; Panashe’s Panache Panacea</h2>
-<p>I’m really making this my space. As in a space that’s mine. So I’ve gone further down the rabit hole and added another noun to the title. I’m not sure if and when this train will come to a stop but I’m too far gone now.</p>
-
-<h2 id="fails">Fails</h2>
-<p>As much as I like to share what’s worked and all things bright and beautiful, I think it’s important to share my <a href="../fails">fails</a> – there are quite a few of them. I’ve linked them in the side bar and I’ll keep updating the list as I go. The list will continue to grow, no doubt.</p>
-
-<h2 id="going-dark">Going dark</h2>
-<p>I’ve also decided to throw in a new coat of paint on the site that’s slightly darker and easier on the eyes. Hopefully it looks better.</p>
-
-
-  </div>
-  
+      <div class="page">
+  <h1 class="page-title">Home</h1>
+  <div class="home-intro">
+    <h1>Welcome to my corner of the internet</h1>
+    <p>I'm Panashe, a DevOps Engineer at Seisma Group (formerly Fronde) since 2021. This is where I share my thoughts, experiences, and the things I'm learning.</p>
 </div>
 
-<div class="pagination">
-  
-    <a class="pagination-item older" href="/page2">Older</a>
-  
-  
-    <span class="pagination-item newer">Newer</span>
-  
+<div class="latest-post">
+    
+    
+        <div class="featured-post">
+            <h2>Latest Post</h2>
+            <div class="post-card featured">
+                <h3><a href="/blog/2021/06/02/How-to-install-the-latest-Python-on-the-Raspberry-Pi/">How to Install the Latest Version of Python on the Raspberry Pi</a></h3>
+                <div class="post-meta">
+                    <span class="post-date">June 2, 2021</span>
+                </div>
+                <div class="post-excerpt">
+                    I love tinkering with the Raspberry Pis, but one annoying thing about the Raspberry Pi OS  (previously called Raspbian) is that it doesn’t always ship with the latest version of Python. As of this writing, that’s Python version 3.9.5. 
+(Note: To use this tutorial for a newer version of Python, yo...
+                </div>
+                <a href="/blog/2021/06/02/How-to-install-the-latest-Python-on-the-Raspberry-Pi/" class="read-more">Read more →</a>
+            </div>
+        </div>
+    
 </div>
+
+<div class="recent-posts">
+    <h2>Recent Posts</h2>
+    <div class="posts-grid">
+        
+            <div class="post-card">
+                <h3><a href="/blog/2021/03/11/The-Unreasonable-Power-of-Webhooks/">The Unreasonable Power of Webhooks</a></h3>
+                <div class="post-meta">
+                    <span class="post-date">March 11, 2021</span>
+                </div>
+                <p>Webhooks are powerful. By themselves, they are relatively simple but can be an integral part of very complex systems. The key to their power is the...</p>
+                <a href="/blog/2021/03/11/The-Unreasonable-Power-of-Webhooks/" class="read-more">Read more →</a>
+            </div>
+        
+            <div class="post-card">
+                <h3><a href="/blog/2019/09/12/I-have-no-idea/">I have no idea</a></h3>
+                <div class="post-meta">
+                    <span class="post-date">September 12, 2019</span>
+                </div>
+                <p>This website doesn’t have any tracking or analytics set up. I have no idea who’s reading or where they are coming from. I think this is fine.
+
+</p>
+                <a href="/blog/2019/09/12/I-have-no-idea/" class="read-more">Read more →</a>
+            </div>
+        
+            <div class="post-card">
+                <h3><a href="/blog/2019/08/18/Making-Small-Changes/">Making small changes</a></h3>
+                <div class="post-meta">
+                    <span class="post-date">August 18, 2019</span>
+                </div>
+                <p>I’ve just finished reading James Clear’s book, Atomic Habits, and I found it quite brilliant.
+One of the biggest lessons from the book is the power...</p>
+                <a href="/blog/2019/08/18/Making-Small-Changes/" class="read-more">Read more →</a>
+            </div>
+        
+            <div class="post-card">
+                <h3><a href="/blog/2019/08/04/Panashe's-panache-panacea/">Panashe's Panache Panacea</a></h3>
+                <div class="post-meta">
+                    <span class="post-date">August 4, 2019</span>
+                </div>
+                <p>Well, I’ve decided to spruce things up a bit.
+
+</p>
+                <a href="/blog/2019/08/04/Panashe's-panache-panacea/" class="read-more">Read more →</a>
+            </div>
+        
+    </div>
+    <div class="view-all">
+        <a href="/blog">View all posts</a>
+    </div>
+</div>
+
+<div class="home-sections">
+    <div class="section-card">
+        <h2><a href="/books">Books</a></h2>
+        <p>My reading list and thoughts on books I've read, from science and technology to psychology and philosophy.</p>
+    </div>
+    
+    <div class="section-card">
+        <h2><a href="/cv">Professional Journey</a></h2>
+        <p>An overview of my professional experience and skills in DevOps engineering.</p>
+    </div>
+</div>
+
+<style>
+.home-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.home-intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.home-intro p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.latest-post {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 2em;
+}
+
+.featured-post {
+    margin-bottom: 4em;
+}
+
+.featured-post h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.post-card.featured {
+    background: #f8f9fa;
+    padding: 2em;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.post-card.featured h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.post-card.featured .post-excerpt {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+    margin: 1em 0;
+}
+
+.recent-posts {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.recent-posts h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.post-card {
+    background: #f8f9fa;
+    padding: 1.5em;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.post-card h3 {
+    margin: 0 0 0.5em 0;
+    font-size: 1.2em;
+}
+
+.post-card h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 1em;
+}
+
+.post-card p {
+    color: #666;
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.read-more {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.view-all {
+    text-align: center;
+    margin: 2em 0 4em;
+}
+
+.view-all a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border: 1px solid #2c3e50;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.view-all a:hover {
+    background: #2c3e50;
+    color: white;
+}
+
+.home-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.section-card {
+    background: #f8f9fa;
+    padding: 2em;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.section-card h2 {
+    margin: 0 0 1em 0;
+    color: #333;
+}
+
+.section-card h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-card p {
+    margin: 0;
+    color: #666;
+    font-size: 1em;
+}
+
+@media (max-width: 600px) {
+    .home-intro {
+        padding: 1em;
+    }
+    
+    .home-intro h1 {
+        font-size: 2em;
+    }
+    
+    .latest-post,
+    .recent-posts {
+        padding: 0 1em;
+    }
+    
+    .post-card.featured {
+        padding: 1.5em;
+    }
+    
+    .home-sections {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+
+</div>
+
     </div>
 
   </body>
