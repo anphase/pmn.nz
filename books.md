@@ -2,10 +2,17 @@
 layout: page
 title: Books
 permalink: /books/
-date:   2019-09-13
+date:   2024-04-26
+pagination:
+  enabled: true
+  collection: books
+  per_page: 12
+  sort_field: 'title'
+  sort_reverse: false
 ---
 
-I enjoy reading other people's book lists so I've written my own -- hopefully someone finds it interesting. 
+<div class="books-intro">
+I enjoy reading other people's book lists so I've written my own — hopefully someone finds it interesting. 
 The books are rated out of 5 and I've added an asterisk * to books that stood out to me. 
 I've also written a blurb with my thoughts or some takeaways where I can. 
 I generally read non-fiction books on a variety of topics from art and business to science and engineering. I do dabble in fiction here and there.
@@ -13,370 +20,417 @@ I generally read non-fiction books on a variety of topics from art and business 
 > I cannot remember the books I've read any more than the meals I have eaten; even so, they have made me. <br> --- Ralph Waldo Emerson
 
 *last updated: {{ page.date }}*
-
-_Work in progress..._
-
----
-
-# List
-(hyperlinks to details)
-
-<!-- Sort Alphabetical -->
-[A Primate's Memoir: A Neuroscientist’s Unconventional Life Among the Baboons](#A_Primates_Memoir)<br>
-[Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones](#Atomic_Habits)\* <br>
-[Conscious: A Brief Guide of the Fundamental Mystery of the Mind](#Conscious)<br>
-[Deep Work: Rules for Focused Success in a Distracted World](#Deep_Work)<br>
-[Failure: Why Science Is So Successful](#Failure)<br>
-[Gene Machine: The Race to Decipher the Secrets of the Ribosome](#Gene_Machine)<br>
-[Hands-On Data Structures and Algorithms with Python: Write complex and powerful code using the latest features of Python 3.7, 2nd Edition](#Hands-On_Data_Structures_and_Algorithms_with_Python)<br>
-[Healing Back Pain: The Mind-Body Connection](#Healing_Back_Pain)<br>
-[In Praise of Wasting Time](In_Praise_of_Wasting_Time)<br>
-[Kinds Of Minds: Toward An Understanding Of Consciousness](#Kinds_of_Minds)<br>
-[Possible Minds: Twenty-Five Ways of Looking at AI](#Possible_Minds)<br>
-[Range: Why Generalists Triumph in a Specialized World](#Range)<br>
-[Reclaim Your Brain: How to Calm Your Thoughts, Heal Your Mind, and Bring Your Life Back Under Control](#Reclaim_Your_Brain)<br>
-[Reductionism in Art and Brain Science: Bridging the 2 Cultures](#Reductionism_in_Art_and_Brain_Science)<br>
-[The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams and God](#The_Accidental_Mind)<br>
-[The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain from Vienna 1900 to the Present](#The_Age_of_Insight)<br>
-[Thinking in Systems: A Primer](#Thinking_in_Systems)<br>
-[Ultra-learning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career](#Ultra_Learning)\* <br> 
-[Understanding the Brain: From Cells to Behaviour to Cognition](#Understanding_the_Brain)<br>
-[When: The Scientific Secrets of Perfect Timing](#When)\* <br>
-[Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness](#Why_Red_Doesnt_Sound_Like_a_Bell)\* <br>
-[The Spirit of Kaizen: Creating Lasting Excellence One Step at a Time](#The_Spirit_of_Kaizen)<br>
-[The Nature Fix: Why Nature Makes Us Happier, Healthier, and More Creative ](#The_Nature_Fix)<br>
-
----
-
-**Currently reading** &#9660;
-
----
-
-#### _Why Red Doesn't Sound Like a Bell: Understanding the Feel of Consciousness_
-{: #Why_Red_Doesnt_Sound_Like_a_Bell}
-
---- by J. Kevin O'Reagan
-
-_Thoughts so far_
-* wow, the stuff about the eye and perception is extremely fascinating.
-* [Goodreads](https://www.goodreads.com/book/show/11529008-why-red-doesn-t-sound-like-a-bell)
-
----
-#### _Failure: Why Science Is So Successful_
-{: #Failure}
-
----  by Stuart Firestein
-  
-_Thoughts so far_
-* failure is a lot more involved than I thought
-* [Goodreads](https://www.goodreads.com/book/show/25972391-failure)
-
----
-
-#### _A Primate's Memoir: A Neuroscientist’s Unconventional Life Among the Baboons_
-{: #A_Primates_Memoir}
-
---- by Robert Sapolsky
-
-_Thoughts so far_
-* fascinating tails and interesting facts about both baboons and people.
-* Robert Sapolsky writes delightfully.
-* [Goodreads](https://www.goodreads.com/book/show/32289.A_Primate_s_Memoir)
-
----
-
-#### _Thinking in Systems: A Primer_
-{: #Thinking_in_Systems}
-
---- by Donella H. Meadows
-
-_Thoughts so far_
-* This has been on my shelf for a while and I've only heard good things.
-* [Goodreads](https://www.goodreads.com/book/show/3828902-thinking-in-systems)
-
----
-
-#### _Hands-On Data Structures and Algorithms with Python: Write complex and powerful code using the latest features of Python 3.7, 2nd Edition_
-{: #Hands-On_Data_Structures_and_Algorithms_with_Python}
-
---- by Dr. Basant Agarwal
-
-_Thoughts so far_
-* Slow start but I've picked up some good stuff already.
-* [Goodreads](https://www.goodreads.com/book/show/42645843-hands-on-data-structures-and-algorithms-with-python)
-
----
-
-**Read** &#9660;
-
----
-#### _Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones_* 
-{: #Atomic_Habits}
-
---- by James Clear
-  
-_Thoughts_
-* this is one of the best books on productivity that I've come across.
-* the idea is that small improvements everyday compound to make  massive changes.
-* this works both ways, for good and bad habits so it's important to learn to build good habits and squash bad ones.
-* [Goodreads](https://www.goodreads.com/book/show/40121378-atomic-habits)
-
-_Rating_: 5/5
-
----
-#### _Gene Machine: The Race to Decipher the Secrets of the Ribosome_
-{: #Gene_Machine}
-
---- by Venki Ramakrishna
-  
-_Thoughts_
-* Interesting read about the author's journey to winning the Nobel Prize in Chemistry. 
-* Reminds me of Eric R. Kandel's book, In Search of Memory, which is also a story about that author's journey to a Nobel Prize. 
-* The amount of hard work mixed with strokes of luck in these types of books/stories always fascinating to me.
-* [Goodreads](https://www.goodreads.com/en/book/show/39088590)
-
-
-_Rating_: 4/5
-
----
-#### _Range: Why Generalists Triumph in a Specialized World_
-{: #Range}
-
---- by David Epstein
-  
-_Thoughts_
-* Fascinating book encouraging us to broaden our scope in order to find out more about ourselves.
-* We learn who we are in practice not in theory.
-* [Goodreads](https://www.goodreads.com/book/show/41795733-range)
-
-_Rating_: 5/5
-
----
-
-#### _Possible Minds: Twenty-Five Ways of Looking at AI_
-{: #Possible_Minds}
-
--- by John Brockman 
-
-_Thoughts_
-* It's a bit of a mixed bag - some of the essays brilliant and others are not so much.
-* I liked the one by Stephen Wolfram.
-* Interesting read though, I dropped my jaw a few times.
-* [Goodreads](https://www.goodreads.com/en/book/show/40338436)
-
-_Rating_: 4/5
-
----
-
-#### _The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams, and God_
-{: #The_Accidental_Mind}
-
--- by David J. Linden
-
-_Thoughts_
-* What an eye opener!
-* The premise of the book is that the brain is not designed well at all - it's a kludge.
-* Interesting ideas about about the why there's religion across all human cultures and other things.
-* I love it when authors go out on a limb with some wild ideas.
-* [Goodreads](https://www.goodreads.com/book/show/380955.The_Accidental_Mind)
-
-_Rating_: 4.5/5
-
----
-
-#### _Understanding the Brain: From Cells to Behaviour to Cognition_
-{: #Understanding_the_Brain}
-
---- by John E. Downling
-
-_Thoughts_
-* The way the brain works is very different from the way artificial neural networks work. 
-* Brain function is way more nuanced and complex. 
-* I love books like this that touch on a topic that we understand a lot about but also know less than there is to know about.
-* There are lots of:
-> * we don't fully understand why ...<br>
-> * the [function/mechanism] of [this processes/thing] is not yet known ...
-* Great intro to neuroscience.
-* [Goodreads](https://www.goodreads.com/book/show/38311431-understanding-the-brain)
-
-_Rating_: 4.5/5
-
----
-
-#### _Ultra-learning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career_
-{: #Ultra_Learning}
-
--- by Scott Young
-
-_Thoughts_
-* Packed with practical advice about learning.
-* The 9 Principles of ultra-learning: meta learning, focus, directness, drill, retrieval, feedback, retention, intuition, experimentation.
-* Will need to revisit this, makes a lot of sense and is backed up by some compelling data.
-* [Goodreads](https://www.goodreads.com/book/show/44770129-ultralearning)
-
-_Rating_: 5/5
-
----
-
-#### _Deep Work: Rules for Focused Success in a Distracted World_
-{: #Deep_Work}
-
--- by Cal Newport
-
-_Thoughts_
-* I resonate with the call for more deep work and less shallow work.
-* Nit-picking but can be repetitive.
-* [Goodreads](https://www.goodreads.com/book/show/25744928-deep-work)
-
-_Rating_: 4.5/5
-
----
-
-#### _Kinds Of Minds: Toward An Understanding Of Consciousness_
-{: #Kinds_of_Minds}
-
--- by Daniel C. Dennett
-
-_Thoughts_
-* Short but thought-provoking read on what consciousness may be in other minds.
-* What makes a mind powerful/conscious is not what it’s made of or how big it is, but what it can do.
-* Manipulating and considering our concepts is what separates human minds from everything else.
-* [Goodreads](https://www.goodreads.com/book/show/2074.Kinds_of_Minds)
-
-_Rating_: 4/5
-
----
-
-#### _In Praise of Wasting Time_
-{: #In_Praise_of_Wasting_Time}
-
--- by Alan Lightman
-
-_Thoughts_
-* Very short and interesting. It's refreshing to know that it's OK to waste time... sometimes. 
-* One of the key takeaways: a prepared mind wandering is _necessary_ for creativity.
-* [Goodreads](https://www.goodreads.com/en/book/show/36580668)
-
-_Rating_: 3.5/5
-
----
-
-#### _The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain from Vienna 1900 to the Present_
-{: #The_Age_of_Insight}
-
--- by Eric R. Kandel
-
-_Thoughts_
-* I enjoyed this more than I thought I would. 
-* Basically, lots went down in the development of art, modern medicine and science in Vienna from 1900 - Einstein, painters/artists, psychology, Freud, Jung etc. to DNA.
-* [Goodreads](https://www.goodreads.com/book/show/12263681-the-age-of-insight)
-
-_Rating_: 4/5
-
----
-
-#### _Reductionism in Art and Brain Science: Bridging the 2 Cultures_
-{: #Reductionism_in_Art_and_Brain_Science}
-
--- by Eric R. Kandel
-
-_Thoughts_
-* Reductionism in art 🖼 taps into mechanisms in the brain for interpreting reality, in colour, shapes, edges, faces etc.
-* I've gained a deeper appreciation for reductionist art because of this book.
-* [Goodreads](https://www.goodreads.com/book/show/29587078-reductionism-in-art-and-brain-science)
-
-_Rating_: 4/5
-
----
-
-#### _Reclaim Your Brain: How to Calm Your Thoughts, Heal Your Mind, and Bring Your Life Back Under Control_
-{: #Reclaim_Your_Brain}
-
--- by Joseph A. Annibali
-
-_Thoughts_
-*  I enjoyed reading this, it covers the mechanisms of the brain and how to manage oneself.
-* One of the key takeaways: find what energises you/fills your spiritual well. Do it bit by bit and let it expand .
-* [Goodreads](https://www.goodreads.com/book/show/25310679-reclaim-your-brain)
-
-_Rating_: 4/5
-
----
-
-#### _Conscious: A Brief Guide of the Fundamental Mystery of the Mind_
-{: #Conscious}
-
--- by Annaka Harris
-
-_Thoughts_
-* One interesting insight from the book is that we don’t seem to consciously choose to do something. Some other processes, experience, the environment, circumstances etc. decide what we do but we get a sense of agency about what we’ve done. 
-* We have the illusion that we are in control and yet the reality we perceive is an edited version of the recent past - our brain processes are in a constant state of editing to synchronise sounds and touch and sights into a coherent whole. 
-* Events unfold and we consciously witness them.
-* [Goodreads](https://www.goodreads.com/book/show/41571759-conscious)
-
-_Rating_: 4/5
-
----
-
-#### _When: The Scientific Secrets of Perfect Timing_
-{: #When}
-
--- by Daniel H. Pink
-
-_Thoughts_
-* Eye opening read.
-* I had no idea we all have chronotypes that determine out ability to perform across the day - the difference between these times can be profound.
-* I love books like this that reveal or expand on things in plain sight.
-* [Goodreads](https://www.goodreads.com/book/show/35412097-when)
-
-_Rating_: 5/5
-
----
-
-#### _Healing Back Pain: The Mind-Body Connection_
-{: #Healing_Back_Pain}
-
--- by John E. Sarno
-
-_Thoughts_
-* I heard good things about this book and I was curious -- I don't actually have and I've never really had back pain.
-* I enjoyed this book.
-* The premise is that TMS (Tension Myoneural Syndrome) and psychological factors can cause back pain - not just injury.
-* Additionally you can overcome this pain, sometimes instantaneously after years of pain just by understanding what it is.
-* It seems to work based on what I've heard people say in random places -- I think there's something to it.
-* [Goodreads](https://www.goodreads.com/book/show/144873.Healing_Back_Pain)
-
-_Rating_: 5/5
-
----
-
-
-#### _The Spirit of Kaizen: Creating Lasting Excellence One Step at a Time_
-{: #The_Spirit_of_Kaizen}
-
--- by  Robert Maurer
-
-_Thoughts_
-* Kaizen means good change.
-* Simple and straightforward approach to improving anything.
-* The steps outlined are deceptively simple and powerful.
-* The book has lots of examples drawn from business and life situations that make it readily applicable.
-* [Goodreads](https://www.goodreads.com/book/show/15854744-the-spirit-of-kaizen)
-
-_Rating_: 5/5
-
----
-
-#### _The Nature Fix: Why Nature Makes Us Happier, Healthier, and More Creative_
-{: #The_Nature_Fix}
-
--- by  Florence Williams
-
-_Thoughts_
-* Convincing read about the benefits of nature and the outdoors. 
-* The message was simple enough - the book could have been much shorter - but I stayed for the stories and humour. Good stuff.
-* [Goodreads](https://www.goodreads.com/book/show/35187181-the-nature-fix)
-
-_Rating_: 4/5
-
----
+</div>
+
+<style>
+.books-intro {
+    margin-bottom: 2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1em;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2em;
+    margin: 2em auto;
+    max-width: 1200px;
+    padding: 0 1em;
+}
+
+.book-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1em;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.book-cover {
+    width: 200px;
+    height: 300px;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2em;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.book-cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(0,0,0,0.2), rgba(0,0,0,0.1));
+    z-index: 1;
+}
+
+.book-cover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        linear-gradient(45deg, rgba(255,255,255,0.1) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(255,255,255,0.1) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.1) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.1) 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    z-index: 2;
+}
+
+.book-cover-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    position: relative;
+    z-index: 3;
+    line-height: 1.3;
+    word-wrap: break-word;
+    hyphens: auto;
+    max-height: 60%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.book-cover-author {
+    font-size: 0.75em;
+    opacity: 0.9;
+    position: relative;
+    z-index: 3;
+    margin-top: auto;
+    padding-top: 0.5em;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.book-cover-category {
+    font-size: 0.65em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 3;
+    align-self: flex-start;
+    background: rgba(255,255,255,0.2);
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+    margin-bottom: 0.8em;
+}
+
+/* Category-specific colors */
+.book-cover[data-category="Science"] {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+}
+
+.book-cover[data-category="Programming"] {
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f);
+}
+
+.book-cover[data-category="Productivity"] {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.book-cover[data-category="Learning"] {
+    background: linear-gradient(135deg, #0f2027, #203a43);
+}
+
+.book-cover[data-category="Psychology"] {
+    background: linear-gradient(135deg, #8e0e00, #1f1c18);
+}
+
+.book-cover[data-category="Technology"] {
+    background: linear-gradient(135deg, #000428, #004e92);
+}
+
+.book-cover[data-category="Neuroscience"] {
+    background: linear-gradient(135deg, #1a2980, #26d0ce);
+}
+
+.book-cover[data-category="Philosophy"] {
+    background: linear-gradient(135deg, #3a1c71, #d76d77);
+}
+
+.book-cover[data-category="Health"] {
+    background: linear-gradient(135deg, #1d976c, #93f9b9);
+}
+
+.book-cover[data-category="Business"] {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+.book-title {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.book-author {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+.book-rating {
+    color: #ffd700;
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+.currently-reading {
+    background-color: #f8f9fa;
+    padding: 1.5em;
+    border-radius: 8px;
+    margin: 2em auto;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-details {
+    margin-top: 1em;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+.book-thoughts {
+    font-style: italic;
+    margin: 0.5em 0;
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.filters {
+    display: flex;
+    gap: 1em;
+    margin: 2em auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    padding: 0 1em;
+}
+
+.filter-group {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.filter-label {
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em 0;
+}
+
+.pagination a {
+    padding: 0.5em 1em;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #eee;
+}
+
+.toc {
+    background-color: #f8f9fa;
+    padding: 1.5em;
+    border-radius: 8px;
+    margin: 2em auto;
+    max-width: 800px;
+}
+
+.toc h3 {
+    margin-top: 0;
+}
+
+.toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 2;
+}
+
+.toc li {
+    margin: 0.5em 0;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #333;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+.goodreads-link {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 0.5em;
+}
+</style>
+
+<div class="toc">
+    <h3>Table of Contents</h3>
+    <ul>
+        {% for book in site.data.books %}
+            <li><a href="#{{ book.title | slugify }}">{{ book.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="filters">
+    <div class="filter-group">
+        <span class="filter-label">Category:</span>
+        <select id="category-filter">
+            <option value="">All Categories</option>
+            {% assign categories = site.data.books | map: "category" | uniq | sort %}
+            {% for category in categories %}
+                <option value="{{ category }}">{{ category }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    
+    <div class="filter-group">
+        <span class="filter-label">Rating:</span>
+        <select id="rating-filter">
+            <option value="">All Ratings</option>
+            <option value="5">★★★★★</option>
+            <option value="4">★★★★</option>
+            <option value="3">★★★</option>
+        </select>
+    </div>
+    
+    <div class="filter-group">
+        <span class="filter-label">Status:</span>
+        <select id="status-filter">
+            <option value="">All Books</option>
+            <option value="currently_reading">Currently Reading</option>
+            <option value="read">Read</option>
+        </select>
+    </div>
+</div>
+
+<div id="books-container">
+    {% for book in site.data.books %}
+        {% if book.status == "currently_reading" %}
+            <div class="currently-reading">
+                <div class="book-card" id="{{ book.title | slugify }}" data-category="{{ book.category }}" data-rating="{{ book.rating }}" data-status="{{ book.status }}">
+                    <div class="book-cover" data-category="{{ book.category }}">
+                        <div class="book-cover-category">{{ book.category }}</div>
+                        <div class="book-cover-title">{{ book.title }}</div>
+                        <div class="book-cover-author">by {{ book.author }}</div>
+                    </div>
+                    <h3 class="book-title">{{ book.title }}</h3>
+                    <p class="book-author">by {{ book.author }}</p>
+                    <div class="book-details">
+                        <div class="book-thoughts">
+                            <strong>My Thoughts:</strong><br>
+                            {{ book.thoughts }}
+                        </div>
+                        <a href="{{ book.goodreads }}" target="_blank" class="goodreads-link">View on Goodreads</a>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    <div class="book-grid">
+        {% for book in site.data.books %}
+            {% if book.status != "currently_reading" %}
+                <div class="book-card" id="{{ book.title | slugify }}" data-category="{{ book.category }}" data-rating="{{ book.rating }}" data-status="{{ book.status }}">
+                    <div class="book-cover" data-category="{{ book.category }}">
+                        <div class="book-cover-category">{{ book.category }}</div>
+                        <div class="book-cover-title">{{ book.title }}</div>
+                        <div class="book-cover-author">by {{ book.author }}</div>
+                    </div>
+                    <h3 class="book-title">{{ book.title }}</h3>
+                    <p class="book-author">by {{ book.author }}</p>
+                    <div class="book-rating">
+                        {% if book.rating > 0 %}
+                            {% assign full_stars = book.rating | floor %}
+                            {% assign half_star = book.rating | modulo: 1 %}
+                            {% for i in (1..full_stars) %}★{% endfor %}
+                            {% if half_star > 0 %}½{% endif %}
+                        {% endif %}
+                    </div>
+                    <div class="book-details">
+                        <div class="book-thoughts">
+                            <strong>My Thoughts:</strong><br>
+                            {{ book.thoughts }}
+                        </div>
+                        <a href="{{ book.goodreads }}" target="_blank" class="goodreads-link">View on Goodreads</a>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const categoryFilter = document.getElementById('category-filter');
+    const ratingFilter = document.getElementById('rating-filter');
+    const statusFilter = document.getElementById('status-filter');
+    const bookCards = document.querySelectorAll('.book-card');
+
+    function filterBooks() {
+        const selectedCategory = categoryFilter.value;
+        const selectedRating = ratingFilter.value;
+        const selectedStatus = statusFilter.value;
+
+        bookCards.forEach(card => {
+            const category = card.dataset.category;
+            const rating = card.dataset.rating;
+            const status = card.dataset.status;
+
+            const categoryMatch = !selectedCategory || category === selectedCategory;
+            const ratingMatch = !selectedRating || rating === selectedRating;
+            const statusMatch = !selectedStatus || status === selectedStatus;
+
+            if (categoryMatch && ratingMatch && statusMatch) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    categoryFilter.addEventListener('change', filterBooks);
+    ratingFilter.addEventListener('change', filterBooks);
+    statusFilter.addEventListener('change', filterBooks);
+});
+</script>
