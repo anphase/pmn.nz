@@ -29,16 +29,80 @@ url: "https://pmn.nz" # the base hostname & protocol for your site, e.g. http://
 twitter_username: anphase
 github_username:  anphase
 
-paginate:         5
-
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-hyde
+highlighter: rouge
+
+# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-sass-converter
+
+# Feed settings
+feed:
+  path: /feed.xml
+
+# SEO settings
+twitter:
+  username: anphase
+  card: summary
+
+# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+
+# Kramdown settings
 kramdown:
-    auto_ids: true
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+  math_engine: mathjax
+
+# Sass settings
+sass:
+  style: compressed
+  sourcemap: never
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+  books:
+    output: true
+    permalink: /books/:path/
+
+# Pagination v2 settings
+pagination:
+  enabled: true
+  per_page: 12
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'title'
+  sort_reverse: false
+  collections:
+    books:
+      enabled: true
+      per_page: 12
+      permalink: '/books/page/:num/'
+      title: 'Books - page :num'
+      sort_field: 'title'
+      sort_reverse: false
