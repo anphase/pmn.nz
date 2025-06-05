@@ -98,3 +98,11 @@ pagination:
   limit: 0
   sort_field: 'title'
   sort_reverse: false
+  collections:
+    books:
+      enabled: true
+      per_page: 12
+      permalink: '/books/page/:num/'
+      title: 'Books - page :num'
+      sort_field: 'title'
+      sort_reverse: false
