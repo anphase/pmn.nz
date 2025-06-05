@@ -1,0 +1,197 @@
+- title: "Waves in an Impossible Sea"
+  author: "Matt Strassler"
+  cover: "/assets/images/books/waves-in-an-impossible-sea.jpg"
+  status: "currently_reading"
+  category: "Science"
+  rating: 0
+  goodreads: "https://www.goodreads.com/book/show/204120200-waves-in-an-impossible-sea"
+  thoughts: "Just started this fascinating exploration of quantum field theory and its implications for our understanding of the universe."
+
+- title: "A Primate's Memoir: A Neuroscientist's Unconventional Life Among the Baboons"
+  author: "Robert Sapolsky"
+  cover: "/assets/images/books/a-primates-memoir.jpg"
+  status: "currently_reading"
+  category: "Science"
+  rating: 0
+  goodreads: "https://www.goodreads.com/book/show/32289.A_Primate_s_Memoir"
+  thoughts: "Fascinating tales and interesting facts about both baboons and people. Robert Sapolsky writes delightfully."
+
+- title: "Thinking in Systems: A Primer"
+  author: "Donella H. Meadows"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "currently_reading"
+  category: "Science"
+  rating: 0
+  goodreads: "https://www.goodreads.com/book/show/3828902-thinking-in-systems"
+  thoughts: "This has been on my shelf for a while and I've only heard good things."
+
+- title: "Hands-On Data Structures and Algorithms with Python"
+  author: "Dr. Basant Agarwal"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "currently_reading"
+  category: "Programming"
+  rating: 0
+  goodreads: "https://www.goodreads.com/book/show/42645843-hands-on-data-structures-and-algorithms-with-python"
+  thoughts: "Slow start but I've picked up some good stuff already."
+
+- title: "Atomic Habits"
+  author: "James Clear"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Productivity"
+  rating: 5
+  goodreads: "https://www.goodreads.com/book/show/40121378-atomic-habits"
+  thoughts: "A practical guide to building good habits and breaking bad ones. The 1% improvement concept is powerful."
+
+- title: "Ultra-learning"
+  author: "Scott Young"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Learning"
+  rating: 5
+  goodreads: "https://www.goodreads.com/book/show/44770129-ultralearning"
+  thoughts: "Packed with practical advice about learning. The 9 Principles of ultra-learning: meta learning, focus, directness, drill, retrieval, feedback, retention, intuition, experimentation. Will need to revisit this, makes a lot of sense and is backed up by some compelling data."
+
+- title: "When"
+  author: "Daniel H. Pink"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Productivity"
+  rating: 5
+  goodreads: "https://www.goodreads.com/book/show/35412097-when"
+  thoughts: "Eye opening read. I had no idea we all have chronotypes that determine our ability to perform across the day - the difference between these times can be profound. I love books like this that reveal or expand on things in plain sight."
+
+- title: "Gene Machine: The Race to Decipher the Secrets of the Ribosome"
+  author: "Venki Ramakrishna"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Science"
+  rating: 4
+  goodreads: "https://www.goodreads.com/en/book/show/39088590"
+  thoughts: "Interesting read about the author's journey to winning the Nobel Prize in Chemistry. Reminds me of Eric R. Kandel's book, In Search of Memory, which is also a story about that author's journey to a Nobel Prize. The amount of hard work mixed with strokes of luck in these types of books/stories always fascinating to me."
+
+- title: "Range: Why Generalists Triumph in a Specialized World"
+  author: "David Epstein"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Psychology"
+  rating: 5
+  goodreads: "https://www.goodreads.com/book/show/41795733-range"
+  thoughts: "Fascinating book encouraging us to broaden our scope in order to find out more about ourselves. We learn who we are in practice not in theory."
+
+- title: "Possible Minds: Twenty-Five Ways of Looking at AI"
+  author: "John Brockman"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Technology"
+  rating: 4
+  goodreads: "https://www.goodreads.com/en/book/show/40338436"
+  thoughts: "It's a bit of a mixed bag - some of the essays brilliant and others are not so much. I liked the one by Stephen Wolfram. Interesting read though, I dropped my jaw a few times."
+
+- title: "The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams, and God"
+  author: "David J. Linden"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Neuroscience"
+  rating: 4.5
+  goodreads: "https://www.goodreads.com/book/show/380955.The_Accidental_Mind"
+  thoughts: "What an eye opener! The premise of the book is that the brain is not designed well at all - it's a kludge. Interesting ideas about why there's religion across all human cultures and other things. I love it when authors go out on a limb with some wild ideas."
+
+- title: "Understanding the Brain: From Cells to Behaviour to Cognition"
+  author: "John E. Downling"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Neuroscience"
+  rating: 4.5
+  goodreads: "https://www.goodreads.com/book/show/38311431-understanding-the-brain"
+  thoughts: "The way the brain works is very different from the way artificial neural networks work. Brain function is way more nuanced and complex. I love books like this that touch on a topic that we understand a lot about but also know less than there is to know about. Great intro to neuroscience."
+
+- title: "Deep Work: Rules for Focused Success in a Distracted World"
+  author: "Cal Newport"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Productivity"
+  rating: 4.5
+  goodreads: "https://www.goodreads.com/book/show/25744928-deep-work"
+  thoughts: "I resonate with the call for more deep work and less shallow work. Nit-picking but can be repetitive."
+
+- title: "Kinds Of Minds: Toward An Understanding Of Consciousness"
+  author: "Daniel C. Dennett"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Philosophy"
+  rating: 4
+  goodreads: "https://www.goodreads.com/book/show/2074.Kinds_of_Minds"
+  thoughts: "Short but thought-provoking read on what consciousness may be in other minds. What makes a mind powerful/conscious is not what it's made of or how big it is, but what it can do. Manipulating and considering our concepts is what separates human minds from everything else."
+
+- title: "In Praise of Wasting Time"
+  author: "Alan Lightman"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Psychology"
+  rating: 3.5
+  goodreads: "https://www.goodreads.com/en/book/show/36580668"
+  thoughts: "Very short and interesting. It's refreshing to know that it's OK to waste time... sometimes. One of the key takeaways: a prepared mind wandering is necessary for creativity."
+
+- title: "The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain from Vienna 1900 to the Present"
+  author: "Eric R. Kandel"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Neuroscience"
+  rating: 4
+  goodreads: "https://www.goodreads.com/book/show/12263681-the-age-of-insight"
+  thoughts: "I enjoyed this more than I thought I would. Basically, lots went down in the development of art, modern medicine and science in Vienna from 1900 - Einstein, painters/artists, psychology, Freud, Jung etc. to DNA."
+
+- title: "Reductionism in Art and Brain Science: Bridging the 2 Cultures"
+  author: "Eric R. Kandel"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Neuroscience"
+  rating: 4
+  goodreads: "https://www.goodreads.com/book/show/29587078-reductionism-in-art-and-brain-science"
+  thoughts: "Reductionism in art taps into mechanisms in the brain for interpreting reality, in colour, shapes, edges, faces etc. I've gained a deeper appreciation for reductionist art because of this book."
+
+- title: "Reclaim Your Brain: How to Calm Your Thoughts, Heal Your Mind, and Bring Your Life Back Under Control"
+  author: "Joseph A. Annibali"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Psychology"
+  rating: 4
+  goodreads: "https://www.goodreads.com/book/show/25310679-reclaim-your-brain"
+  thoughts: "I enjoyed reading this, it covers the mechanisms of the brain and how to manage oneself. One of the key takeaways: find what energises you/fills your spiritual well. Do it bit by bit and let it expand."
+
+- title: "Conscious: A Brief Guide of the Fundamental Mystery of the Mind"
+  author: "Annaka Harris"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Philosophy"
+  rating: 4
+  goodreads: "https://www.goodreads.com/book/show/41571759-conscious"
+  thoughts: "One interesting insight from the book is that we don't seem to consciously choose to do something. Some other processes, experience, the environment, circumstances etc. decide what we do but we get a sense of agency about what we've done. We have the illusion that we are in control and yet the reality we perceive is an edited version of the recent past - our brain processes are in a constant state of editing to synchronise sounds and touch and sights into a coherent whole. Events unfold and we consciously witness them."
+
+- title: "Healing Back Pain: The Mind-Body Connection"
+  author: "John E. Sarno"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Health"
+  rating: 5
+  goodreads: "https://www.goodreads.com/book/show/144873.Healing_Back_Pain"
+  thoughts: "I heard good things about this book and I was curious -- I don't actually have and I've never really had back pain. I enjoyed this book. The premise is that TMS (Tension Myoneural Syndrome) and psychological factors can cause back pain - not just injury. Additionally you can overcome this pain, sometimes instantaneously after years of pain just by understanding what it is. It seems to work based on what I've heard people say in random places -- I think there's something to it."
+
+- title: "The Spirit of Kaizen: Creating Lasting Excellence One Step at a Time"
+  author: "Robert Maurer"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Business"
+  rating: 5
+  goodreads: "https://www.goodreads.com/book/show/15854744-the-spirit-of-kaizen"
+  thoughts: "Kaizen means good change. Simple and straightforward approach to improving anything. The steps outlined are deceptively simple and powerful. The book has lots of examples drawn from business and life situations that make it readily applicable."
+
+- title: "The Nature Fix: Why Nature Makes Us Happier, Healthier, and More Creative"
+  author: "Florence Williams"
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  status: "read"
+  category: "Psychology"
+  rating: 4
+  goodreads: "https://www.goodreads.com/book/show/35187181-the-nature-fix"
+  thoughts: "Convincing read about the benefits of nature and the outdoors. The message was simple enough - the book could have been much shorter - but I stayed for the stories and humour. Good stuff." 
