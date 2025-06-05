@@ -6,7 +6,7 @@ permalink: /
 
 <div class="home-intro">
     <h1>Welcome to my corner of the internet</h1>
-    <p>I'm Panashe, a DevOps Engineer at Seisma Group (formerly Fronde) since 2021. This is where I share my thoughts, experiences, and the things I'm learning.</p>
+    <p>I'm Panashe, a curious mind exploring the intersection of technology, philosophy, and human experience. This is where I share my thoughts, experiments, and discoveries as I navigate through life's fascinating journey.</p>
 </div>
 
 <div class="latest-post">

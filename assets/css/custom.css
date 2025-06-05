@@ -1,0 +1,41 @@
+/* Custom width overrides */
+@media (min-width: 48em) {
+  .sidebar {
+    width: 20rem;
+  }
+  
+  .content {
+    max-width: 55rem;
+    margin-left: 22rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    max-width: 65rem;
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+/* Container width overrides */
+.container {
+  max-width: 65rem;
+}
+
+/* Ensure blog and book grids use the full width */
+.blog-posts,
+.book-grid,
+.home-sections {
+  max-width: 65rem;
+}
+
+/* Adjust grid layouts for wider screens */
+.book-grid {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.posts-grid {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+} 
