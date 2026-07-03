@@ -1,6 +1,6 @@
 - title: "Waves in an Impossible Sea"
   author: "Matt Strassler"
-  cover: "/assets/images/books/waves-in-an-impossible-sea.jpg"
+  cover: "/assets/images/books/generated/waves-in-an-impossible-sea.webp"
   status: "currently_reading"
   category: "Science"
   rating: 0
@@ -9,7 +9,7 @@
 
 - title: "A Primate's Memoir: A Neuroscientist's Unconventional Life Among the Baboons"
   author: "Robert Sapolsky"
-  cover: "/assets/images/books/a-primates-memoir.jpg"
+  cover: "/assets/images/books/generated/a-primates-memoir.webp"
   status: "currently_reading"
   category: "Science"
   rating: 0
@@ -18,7 +18,7 @@
 
 - title: "Thinking in Systems: A Primer"
   author: "Donella H. Meadows"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/thinking-in-systems.webp"
   status: "currently_reading"
   category: "Science"
   rating: 0
@@ -27,7 +27,7 @@
 
 - title: "Hands-On Data Structures and Algorithms with Python"
   author: "Dr. Basant Agarwal"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/hands-on-data-structures-and-algorithms-with-python.webp"
   status: "currently_reading"
   category: "Programming"
   rating: 0
@@ -36,7 +36,7 @@
 
 - title: "Atomic Habits"
   author: "James Clear"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/atomic-habits.webp"
   status: "read"
   category: "Productivity"
   rating: 5
@@ -45,7 +45,7 @@
 
 - title: "Ultra-learning"
   author: "Scott Young"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/ultra-learning.webp"
   status: "read"
   category: "Learning"
   rating: 5
@@ -54,7 +54,7 @@
 
 - title: "When"
   author: "Daniel H. Pink"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/when.webp"
   status: "read"
   category: "Productivity"
   rating: 5
@@ -63,7 +63,7 @@
 
 - title: "Gene Machine: The Race to Decipher the Secrets of the Ribosome"
   author: "Venki Ramakrishna"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/gene-machine.webp"
   status: "read"
   category: "Science"
   rating: 4
@@ -72,7 +72,7 @@
 
 - title: "Range: Why Generalists Triumph in a Specialized World"
   author: "David Epstein"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/range.webp"
   status: "read"
   category: "Psychology"
   rating: 5
@@ -81,7 +81,7 @@
 
 - title: "Possible Minds: Twenty-Five Ways of Looking at AI"
   author: "John Brockman"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/possible-minds.webp"
   status: "read"
   category: "Technology"
   rating: 4
@@ -90,7 +90,7 @@
 
 - title: "The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams, and God"
   author: "David J. Linden"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/the-accidental-mind.webp"
   status: "read"
   category: "Neuroscience"
   rating: 4.5
@@ -99,7 +99,7 @@
 
 - title: "Understanding the Brain: From Cells to Behaviour to Cognition"
   author: "John E. Downling"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/understanding-the-brain.webp"
   status: "read"
   category: "Neuroscience"
   rating: 4.5
@@ -108,7 +108,7 @@
 
 - title: "Deep Work: Rules for Focused Success in a Distracted World"
   author: "Cal Newport"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/deep-work.webp"
   status: "read"
   category: "Productivity"
   rating: 4.5
@@ -117,7 +117,7 @@
 
 - title: "Kinds Of Minds: Toward An Understanding Of Consciousness"
   author: "Daniel C. Dennett"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/kinds-of-minds.webp"
   status: "read"
   category: "Philosophy"
   rating: 4
@@ -126,7 +126,7 @@
 
 - title: "In Praise of Wasting Time"
   author: "Alan Lightman"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/in-praise-of-wasting-time.webp"
   status: "read"
   category: "Psychology"
   rating: 3.5
@@ -135,7 +135,7 @@
 
 - title: "The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain from Vienna 1900 to the Present"
   author: "Eric R. Kandel"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/the-age-of-insight.webp"
   status: "read"
   category: "Neuroscience"
   rating: 4
@@ -144,7 +144,7 @@
 
 - title: "Reductionism in Art and Brain Science: Bridging the 2 Cultures"
   author: "Eric R. Kandel"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/reductionism-in-art-and-brain-science.webp"
   status: "read"
   category: "Neuroscience"
   rating: 4
@@ -153,7 +153,7 @@
 
 - title: "Reclaim Your Brain: How to Calm Your Thoughts, Heal Your Mind, and Bring Your Life Back Under Control"
   author: "Joseph A. Annibali"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/reclaim-your-brain.webp"
   status: "read"
   category: "Psychology"
   rating: 4
@@ -162,7 +162,7 @@
 
 - title: "Conscious: A Brief Guide of the Fundamental Mystery of the Mind"
   author: "Annaka Harris"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/conscious.webp"
   status: "read"
   category: "Philosophy"
   rating: 4
@@ -171,7 +171,7 @@
 
 - title: "Healing Back Pain: The Mind-Body Connection"
   author: "John E. Sarno"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/healing-back-pain.webp"
   status: "read"
   category: "Health"
   rating: 5
@@ -180,7 +180,7 @@
 
 - title: "The Spirit of Kaizen: Creating Lasting Excellence One Step at a Time"
   author: "Robert Maurer"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/the-spirit-of-kaizen.webp"
   status: "read"
   category: "Business"
   rating: 5
@@ -189,9 +189,9 @@
 
 - title: "The Nature Fix: Why Nature Makes Us Happier, Healthier, and More Creative"
   author: "Florence Williams"
-  cover: "https://images-na.ssl-images-amazon.com/images/I/41V5EGttHKL._SX329_BO1,204,203,200_.jpg"
+  cover: "/assets/images/books/generated/the-nature-fix.webp"
   status: "read"
   category: "Psychology"
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/35187181-the-nature-fix"
-  thoughts: "Convincing read about the benefits of nature and the outdoors. The message was simple enough - the book could have been much shorter - but I stayed for the stories and humour. Good stuff." 
+  thoughts: "Convincing read about the benefits of nature and the outdoors. The message was simple enough - the book could have been much shorter - but I stayed for the stories and humour. Good stuff."

@@ -14,34 +14,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# Dependencies
-markdown:         redcarpet
-highlighter:      rouge
-
 # Permalinks
 permalink:        pretty
 
-title: Panashe's panache panacea
+title: PMN
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I'm Panashe, a life long learner, computer systems engineer and great wonderer of the world.
-baseurl: "/" # the subpath of your site, e.g. /blog
+  Panashe's Panache Panacea: notes, books, experiments, and other useful nonsense.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pmn.nz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: anphase
 github_username:  anphase
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hyde
 highlighter: rouge
 
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-sass-converter
 
 # Feed settings
 feed:
@@ -85,24 +78,3 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title/
-  books:
-    output: true
-    permalink: /books/:path/
-
-# Pagination v2 settings
-pagination:
-  enabled: true
-  per_page: 12
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'title'
-  sort_reverse: false
-  collections:
-    books:
-      enabled: true
-      per_page: 12
-      permalink: '/books/page/:num/'
-      title: 'Books - page :num'
-      sort_field: 'title'
-      sort_reverse: false
