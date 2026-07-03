@@ -4,262 +4,63 @@ title: Home
 permalink: /
 ---
 
-<div class="home-intro">
-    <h1>Welcome to my corner of the internet</h1>
-    <p>I'm Panashe, a curious mind exploring the intersection of technology, philosophy, and human experience. This is where I share my thoughts, experiments, and discoveries as I navigate through life's fascinating journey.</p>
-</div>
+<section class="home-intro">
+  <p class="eyebrow">Panashe's Panache Panacea</p>
+  <h1>A public notebook for scattered thoughts, useful patterns, books, and experiments.</h1>
+  <p>PMN is my workshop: a place for reading notes, essays, fragments, lab ideas, and the half-polished things that are still useful enough to keep in public.</p>
+  <p>For the polished professional front door, visit <a href="https://panashe.nz">panashe.nz</a>.</p>
+</section>
 
-<div class="latest-post">
-    {% assign latest_post = site.posts.first %}
-    {% if latest_post %}
-        <div class="featured-post">
-            <h2>Latest Post</h2>
-            <div class="post-card featured">
-                <h3><a href="{{ latest_post.url }}">{{ latest_post.title }}</a></h3>
-                <div class="post-meta">
-                    <span class="post-date">{{ latest_post.date | date: "%B %-d, %Y" }}</span>
-                </div>
-                <div class="post-excerpt">
-                    {{ latest_post.excerpt | strip_html | truncate: 300 }}
-                </div>
-                <a href="{{ latest_post.url }}" class="read-more">Read more →</a>
-            </div>
-        </div>
-    {% endif %}
-</div>
-
-<div class="recent-posts">
-    <h2>Recent Posts</h2>
-    <div class="posts-grid">
-        {% for post in site.posts offset:1 limit:4 %}
-            <div class="post-card">
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <div class="post-meta">
-                    <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-                </div>
-                <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
-                <a href="{{ post.url }}" class="read-more">Read more →</a>
-            </div>
-        {% endfor %}
+{% assign latest_post = site.posts.first %}
+{% if latest_post %}
+  <section class="latest-post">
+    <div class="section-heading">
+      <p class="eyebrow">Latest</p>
+      <h2>Recent writing</h2>
     </div>
-    <div class="view-all">
-        <a href="/blog">View all posts</a>
-    </div>
-</div>
+    <article class="post-card featured">
+      <div class="post-meta">{{ latest_post.date | date: "%B %-d, %Y" }}</div>
+      <h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
+      <p>{{ latest_post.excerpt | strip_html | truncate: 260 }}</p>
+      <a href="{{ latest_post.url | relative_url }}" class="read-more">Read more</a>
+    </article>
+  </section>
+{% endif %}
 
-<div class="home-sections">
-    <div class="section-card">
-        <h2><a href="/books">Books</a></h2>
-        <p>My reading list and thoughts on books I've read, from science and technology to psychology and philosophy.</p>
-    </div>
-    
-    <div class="section-card">
-        <h2><a href="/cv">Professional Journey</a></h2>
-        <p>An overview of my professional experience and skills in DevOps engineering.</p>
-    </div>
-</div>
+<section class="recent-posts">
+  <div class="section-heading">
+    <p class="eyebrow">Archive</p>
+    <h2>More posts</h2>
+  </div>
+  <div class="posts-grid">
+    {% for post in site.posts offset:1 limit:4 %}
+      <article class="post-card">
+        <div class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        <a href="{{ post.url | relative_url }}" class="read-more">Read more</a>
+      </article>
+    {% endfor %}
+  </div>
+  <div class="view-all">
+    <a href="{{ '/blog/' | relative_url }}">View all posts</a>
+  </div>
+</section>
 
-<style>
-.home-intro {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2em;
-    line-height: 1.6;
-    text-align: center;
-}
-
-.home-intro h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-    color: #333;
-}
-
-.home-intro p {
-    font-size: 1.2em;
-    color: #666;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.latest-post {
-    max-width: 1200px;
-    margin: 2em auto;
-    padding: 0 2em;
-}
-
-.featured-post {
-    margin-bottom: 4em;
-}
-
-.featured-post h2 {
-    font-size: 1.8em;
-    color: #333;
-    margin-bottom: 1em;
-    text-align: center;
-}
-
-.post-card.featured {
-    background: #f8f9fa;
-    padding: 2em;
-    border-radius: 8px;
-    max-width: 800px;
-    margin: 0 auto;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.post-card.featured h3 {
-    font-size: 1.8em;
-    margin-bottom: 0.5em;
-}
-
-.post-card.featured .post-excerpt {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #666;
-    margin: 1em 0;
-}
-
-.recent-posts {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2em;
-}
-
-.recent-posts h2 {
-    font-size: 1.8em;
-    color: #333;
-    margin-bottom: 1.5em;
-    text-align: center;
-}
-
-.posts-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2em;
-    margin-bottom: 3em;
-}
-
-.post-card {
-    background: #f8f9fa;
-    padding: 1.5em;
-    border-radius: 8px;
-    transition: transform 0.2s;
-}
-
-.post-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.post-card h3 {
-    margin: 0 0 0.5em 0;
-    font-size: 1.2em;
-}
-
-.post-card h3 a {
-    text-decoration: none;
-    color: #333;
-}
-
-.post-meta {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 1em;
-}
-
-.post-card p {
-    color: #666;
-    margin-bottom: 1em;
-    line-height: 1.6;
-}
-
-.read-more {
-    color: #2c3e50;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.read-more:hover {
-    text-decoration: underline;
-}
-
-.view-all {
-    text-align: center;
-    margin: 2em 0 4em;
-}
-
-.view-all a {
-    color: #2c3e50;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.5em 1em;
-    border: 1px solid #2c3e50;
-    border-radius: 4px;
-    transition: all 0.2s;
-}
-
-.view-all a:hover {
-    background: #2c3e50;
-    color: white;
-}
-
-.home-sections {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2em;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 2em;
-}
-
-.section-card {
-    background: #f8f9fa;
-    padding: 2em;
-    border-radius: 8px;
-    transition: transform 0.2s;
-}
-
-.section-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.section-card h2 {
-    margin: 0 0 1em 0;
-    color: #333;
-}
-
-.section-card h2 a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.section-card p {
-    margin: 0;
-    color: #666;
-    font-size: 1em;
-}
-
-@media (max-width: 600px) {
-    .home-intro {
-        padding: 1em;
-    }
-    
-    .home-intro h1 {
-        font-size: 2em;
-    }
-    
-    .latest-post,
-    .recent-posts {
-        padding: 0 1em;
-    }
-    
-    .post-card.featured {
-        padding: 1.5em;
-    }
-    
-    .home-sections {
-        grid-template-columns: 1fr;
-    }
-}
-</style> 
+<section class="home-sections" aria-label="Site sections">
+  <article class="section-card">
+    <p class="eyebrow">Books</p>
+    <h2><a href="{{ '/books/' | relative_url }}">Reading notes</a></h2>
+    <p>A living shelf of books I've read, what stood out, and what I’m currently working through.</p>
+  </article>
+  <article class="section-card">
+    <p class="eyebrow">Lab</p>
+    <h2><a href="{{ '/projects/' | relative_url }}">Experiments</a></h2>
+    <p>Older projects, prototypes, and useful bits that do not need to be portfolio-grade to be worth keeping.</p>
+  </article>
+  <article class="section-card">
+    <p class="eyebrow">Identity</p>
+    <h2><a href="https://panashe.nz">Panashe.nz</a></h2>
+    <p>The curated profile, CV, selected work, and contact details live on my real-name site.</p>
+  </article>
+</section>
