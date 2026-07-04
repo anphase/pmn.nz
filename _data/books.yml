@@ -4,8 +4,13 @@
   status: "currently_reading"
   category: "Science"
   rating: 0
-  goodreads: "https://www.goodreads.com/book/show/204120200-waves-in-an-impossible-sea"
+  goodreads: "https://www.goodreads.com/book/show/204120200"
   thoughts: "Just started this fascinating exploration of quantum field theory and its implications for our understanding of the universe."
+  overview: "A physics book about the modern picture of reality beneath everyday objects: fields, particles, waves, and the strange but useful models that describe the universe."
+  themes:
+    - "Quantum field theory"
+    - "Modern physics"
+    - "Reality beneath ordinary experience"
 
 - title: "A Primate's Memoir: A Neuroscientist's Unconventional Life Among the Baboons"
   author: "Robert Sapolsky"

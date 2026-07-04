@@ -59,19 +59,31 @@ date: 2024-04-26
     <div class="book-grid book-grid-featured">
       {% for book in current_books %}
         <article class="book-entry book-card" id="{{ book.title | slugify }}" data-category="{{ book.category }}" data-rating="{{ book.rating }}" data-status="{{ book.status }}">
-          <a class="book-art" href="{{ book.goodreads }}" target="_blank" rel="noopener" aria-label="View {{ book.title }} on Goodreads">
+          <div class="book-art">
             <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768">
             <span class="book-status">Currently reading</span>
-          </a>
+          </div>
           <div class="book-copy">
             <div class="book-meta">
               <span>{{ book.category }}</span>
               <span>{% if book.rating > 0 %}{{ book.rating }}/5{% else %}Unrated{% endif %}</span>
             </div>
-            <h3>{{ book.title }}</h3>
+            <h3><a href="#{{ book.title | slugify }}">{{ book.title }}</a></h3>
             <p class="book-author">by {{ book.author }}</p>
-            <p>{{ book.thoughts }}</p>
-            <a class="text-link" href="{{ book.goodreads }}" target="_blank" rel="noopener">Goodreads</a>
+            <div class="review-note">
+              <span>My note</span>
+              <p>{{ book.thoughts }}</p>
+            </div>
+            {% if book.overview %}
+              <details class="book-details">
+                <summary>Book overview</summary>
+                <p>{{ book.overview }}</p>
+                {% if book.themes %}
+                  <p><strong>Themes:</strong> {{ book.themes | join: ", " }}</p>
+                {% endif %}
+              </details>
+            {% endif %}
+            <a class="text-link" href="{{ book.goodreads }}" target="_blank" rel="noopener">View on Goodreads</a>
           </div>
         </article>
       {% endfor %}
@@ -88,18 +100,30 @@ date: 2024-04-26
     {% for book in site.data.books %}
       {% if book.status != "currently_reading" %}
         <article class="book-entry book-card" id="{{ book.title | slugify }}" data-category="{{ book.category }}" data-rating="{{ book.rating }}" data-status="{{ book.status }}">
-          <a class="book-art" href="{{ book.goodreads }}" target="_blank" rel="noopener" aria-label="View {{ book.title }} on Goodreads">
+          <div class="book-art">
             <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768">
-          </a>
+          </div>
           <div class="book-copy">
             <div class="book-meta">
               <span>{{ book.category }}</span>
               <span>{{ book.rating }}/5</span>
             </div>
-            <h3>{{ book.title }}</h3>
+            <h3><a href="#{{ book.title | slugify }}">{{ book.title }}</a></h3>
             <p class="book-author">by {{ book.author }}</p>
-            <p>{{ book.thoughts }}</p>
-            <a class="text-link" href="{{ book.goodreads }}" target="_blank" rel="noopener">Goodreads</a>
+            <div class="review-note">
+              <span>My note</span>
+              <p>{{ book.thoughts }}</p>
+            </div>
+            {% if book.overview %}
+              <details class="book-details">
+                <summary>Book overview</summary>
+                <p>{{ book.overview }}</p>
+                {% if book.themes %}
+                  <p><strong>Themes:</strong> {{ book.themes | join: ", " }}</p>
+                {% endif %}
+              </details>
+            {% endif %}
+            <a class="text-link" href="{{ book.goodreads }}" target="_blank" rel="noopener">View on Goodreads</a>
           </div>
         </article>
       {% endif %}
