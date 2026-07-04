@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+{% assign book = site.data.books | where: "title", page.title | first %}
+
+<article class="page book-page">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ '/books/' | relative_url }}">Books</a>
+    <span>{{ page.title }}</span>
+  </nav>
+
+  <header class="book-page-hero">
+    {% if book.cover %}
+      <div class="book-art book-page-cover">
+        <img src="{{ book.cover | relative_url }}" alt="{{ page.title }} cover artwork" width="512" height="768">
+      </div>
+    {% endif %}
+    <div>
+      <div class="book-meta">
+        {% if book.category %}<span>{{ book.category }}</span>{% endif %}
+        {% if book.status == "currently_reading" %}
+          <span>Currently reading</span>
+        {% elsif book.rating %}
+          <span>{{ book.rating }}/5</span>
+        {% endif %}
+      </div>
+      <h1>{{ page.title }}</h1>
+      {% if book.author %}<p class="book-author">by {{ book.author }}</p>{% endif %}
+      <div class="actions book-page-actions">
+        {% if book.goodreads %}
+          <a class="text-link" href="{{ book.goodreads }}" target="_blank" rel="noopener">Goodreads</a>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  {% if book.overview or book.themes %}
+    <section class="book-page-section">
+      <p class="eyebrow">About the book</p>
+      {% if book.overview %}<p>{{ book.overview }}</p>{% endif %}
+      {% if book.themes %}
+        <div class="theme-list">
+          {% for theme in book.themes %}
+            <span>{{ theme }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </section>
+  {% endif %}
+
+  <section class="book-page-section">
+    <p class="eyebrow">My note</p>
+    {% if book.thoughts %}
+      <p>{{ book.thoughts }}</p>
+    {% else %}
+      <p>No note yet.</p>
+    {% endif %}
+  </section>
+
+  <section class="book-page-section">
+    <p class="eyebrow">Further notes</p>
+    {{ content }}
+  </section>
+</article>
