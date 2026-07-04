@@ -78,3 +78,6 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title/
+  books:
+    output: true
+    permalink: /books/:name/
