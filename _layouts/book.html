@@ -15,11 +15,19 @@ layout: default
       <div class="book-art book-page-cover">
         <img src="{{ book.cover | relative_url }}" alt="{{ page.title }} cover artwork" width="512" height="768">
       </div>
+    {% else %}
+      <div class="book-art book-page-cover">
+        <span class="book-art-placeholder">{{ page.title }}</span>
+      </div>
     {% endif %}
     <div>
       <div class="book-meta">
         {% if book.category %}<span>{{ book.category }}</span>{% endif %}
-        {% if book.published %}<span>Published {{ book.published }}</span>{% endif %}
+        {% if book.published_date %}
+          <span>Published {{ book.published_date }}</span>
+        {% elsif book.published %}
+          <span>Published {{ book.published }}</span>
+        {% endif %}
         {% if book.status == "currently_reading" %}
           <span>Currently reading</span>
         {% elsif book.rating %}
@@ -40,6 +48,55 @@ layout: default
     <section class="book-page-section">
       <p class="eyebrow">About the book</p>
       {% if book.overview %}<p>{{ book.overview }}</p>{% endif %}
+      <dl class="book-facts">
+        {% if book.publisher %}
+          <div>
+            <dt>Publisher</dt>
+            <dd>{{ book.publisher }}</dd>
+          </div>
+        {% endif %}
+        {% if book.published_date %}
+          <div>
+            <dt>Published</dt>
+            <dd>{{ book.published_date }}</dd>
+          </div>
+        {% elsif book.published %}
+          <div>
+            <dt>Published</dt>
+            <dd>{{ book.published }}</dd>
+          </div>
+        {% endif %}
+        {% if book.pages %}
+          <div>
+            <dt>Length</dt>
+            <dd>{{ book.pages }} pages</dd>
+          </div>
+        {% endif %}
+        {% if book.isbn13 %}
+          <div>
+            <dt>ISBN</dt>
+            <dd>{{ book.isbn13 }}</dd>
+          </div>
+        {% endif %}
+        {% if book.edition %}
+          <div>
+            <dt>Edition</dt>
+            <dd>{{ book.edition }}</dd>
+          </div>
+        {% endif %}
+        {% if book.ratings.goodreads.value %}
+          <div>
+            <dt>Goodreads</dt>
+            <dd>{{ book.ratings.goodreads.value }}/5{% if book.ratings.goodreads.count %} from {{ book.ratings.goodreads.count }} ratings{% endif %}{% if book.ratings.goodreads.captured %} · captured {{ book.ratings.goodreads.captured }}{% endif %}</dd>
+          </div>
+        {% endif %}
+        {% if book.ratings.amazon.value %}
+          <div>
+            <dt>Amazon</dt>
+            <dd>{{ book.ratings.amazon.value }}/5{% if book.ratings.amazon.count %} from {{ book.ratings.amazon.count }} ratings{% endif %}{% if book.ratings.amazon.captured %} · captured {{ book.ratings.amazon.captured }}{% endif %}</dd>
+          </div>
+        {% endif %}
+      </dl>
       {% if book.themes %}
         <div class="theme-list">
           {% for theme in book.themes %}

@@ -63,7 +63,11 @@ date: 2024-04-26
         <article class="book-entry book-card" id="{{ book.title | slugify }}" data-category="{{ book.category }}" data-rating="{{ book.rating }}" data-status="{{ book.status }}">
           <div class="book-header">
             <div class="book-art">
-              <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768">
+              {% if book.cover %}
+                <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768">
+              {% else %}
+                <span class="book-art-placeholder">{{ book.title }}</span>
+              {% endif %}
               <span class="book-status">Currently reading</span>
             </div>
             <div class="book-copy">
@@ -104,7 +108,11 @@ date: 2024-04-26
         <article class="book-entry book-card" id="{{ book.title | slugify }}" data-category="{{ book.category }}" data-rating="{{ book.rating }}" data-status="{{ book.status }}">
           <div class="book-header">
             <div class="book-art">
-              <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768">
+              {% if book.cover %}
+                <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768">
+              {% else %}
+                <span class="book-art-placeholder">{{ book.title }}</span>
+              {% endif %}
             </div>
             <div class="book-copy">
               <div class="book-meta">
