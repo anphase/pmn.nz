@@ -19,6 +19,7 @@ layout: default
     <div>
       <div class="book-meta">
         {% if book.category %}<span>{{ book.category }}</span>{% endif %}
+        {% if book.published %}<span>Published {{ book.published }}</span>{% endif %}
         {% if book.status == "currently_reading" %}
           <span>Currently reading</span>
         {% elsif book.rating %}

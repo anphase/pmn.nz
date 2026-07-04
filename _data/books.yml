@@ -5,6 +5,7 @@
   category: "Science"
   rating: 0
   goodreads: "https://www.goodreads.com/book/show/204120200"
+  published: "2024"
   thoughts: "Just started this fascinating exploration of quantum field theory and its implications for our understanding of the universe."
   overview: "A physics book about the modern picture of reality beneath everyday objects: fields, particles, waves, and the strange but useful models that describe the universe."
   themes:
@@ -19,7 +20,13 @@
   category: "Science"
   rating: 0
   goodreads: "https://www.goodreads.com/book/show/32289.A_Primate_s_Memoir"
+  published: "2001"
   thoughts: "Fascinating tales and interesting facts about both baboons and people. Robert Sapolsky writes delightfully."
+  overview: "A memoir of fieldwork, science, and survival drawn from Robert Sapolsky's years studying baboons in East Africa."
+  themes:
+    - "Field biology"
+    - "Primate behaviour"
+    - "Science memoir"
 
 - title: "Thinking in Systems: A Primer"
   author: "Donella H. Meadows"
@@ -28,7 +35,13 @@
   category: "Science"
   rating: 0
   goodreads: "https://www.goodreads.com/book/show/3828902-thinking-in-systems"
+  published: "2008"
   thoughts: "This has been on my shelf for a while and I've only heard good things."
+  overview: "An accessible introduction to systems thinking: feedback loops, stocks, flows, delays, leverage points, and why complex systems resist simple fixes."
+  themes:
+    - "Systems thinking"
+    - "Feedback loops"
+    - "Complexity"
 
 - title: "Hands-On Data Structures and Algorithms with Python"
   author: "Dr. Basant Agarwal"
@@ -37,7 +50,13 @@
   category: "Programming"
   rating: 0
   goodreads: "https://www.goodreads.com/book/show/42645843-hands-on-data-structures-and-algorithms-with-python"
+  published: "2018"
   thoughts: "Slow start but I've picked up some good stuff already."
+  overview: "A practical programming guide to core data structures and algorithms using Python examples and implementation exercises."
+  themes:
+    - "Algorithms"
+    - "Python"
+    - "Computer science fundamentals"
 
 - title: "Atomic Habits"
   author: "James Clear"
@@ -46,7 +65,13 @@
   category: "Productivity"
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/40121378-atomic-habits"
+  published: "2018"
   thoughts: "A practical guide to building good habits and breaking bad ones. The 1% improvement concept is powerful."
+  overview: "A behaviour-change book about making small habits obvious, attractive, easy, and satisfying so incremental improvements compound over time."
+  themes:
+    - "Habits"
+    - "Behaviour change"
+    - "Compounding improvement"
 
 - title: "Ultra-learning"
   author: "Scott Young"
@@ -55,7 +80,13 @@
   category: "Learning"
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/44770129-ultralearning"
+  published: "2019"
   thoughts: "Packed with practical advice about learning. The 9 Principles of ultra-learning: meta learning, focus, directness, drill, retrieval, feedback, retention, intuition, experimentation. Will need to revisit this, makes a lot of sense and is backed up by some compelling data."
+  overview: "A guide to intense, self-directed learning projects built around focus, direct practice, feedback, retrieval, and deliberate experimentation."
+  themes:
+    - "Learning"
+    - "Self-directed study"
+    - "Practice design"
 
 - title: "When"
   author: "Daniel H. Pink"
@@ -64,7 +95,13 @@
   category: "Productivity"
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/35412097-when"
+  published: "2018"
   thoughts: "Eye opening read. I had no idea we all have chronotypes that determine our ability to perform across the day - the difference between these times can be profound. I love books like this that reveal or expand on things in plain sight."
+  overview: "A book about timing: daily rhythms, chronotypes, beginnings, midpoints, endings, breaks, and how time shapes performance and decisions."
+  themes:
+    - "Timing"
+    - "Chronotypes"
+    - "Decision rhythms"
 
 - title: "Gene Machine: The Race to Decipher the Secrets of the Ribosome"
   author: "Venki Ramakrishna"
@@ -73,7 +110,13 @@
   category: "Science"
   rating: 4
   goodreads: "https://www.goodreads.com/en/book/show/39088590"
+  published: "2018"
   thoughts: "Interesting read about the author's journey to winning the Nobel Prize in Chemistry. Reminds me of Eric R. Kandel's book, In Search of Memory, which is also a story about that author's journey to a Nobel Prize. The amount of hard work mixed with strokes of luck in these types of books/stories always fascinating to me."
+  overview: "A scientific memoir about the race to understand the ribosome, the people involved, and the long path from research uncertainty to Nobel recognition."
+  themes:
+    - "Molecular biology"
+    - "Scientific discovery"
+    - "Research culture"
 
 - title: "Range: Why Generalists Triumph in a Specialized World"
   author: "David Epstein"
@@ -82,7 +125,13 @@
   category: "Psychology"
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/41795733-range"
+  published: "2019"
   thoughts: "Fascinating book encouraging us to broaden our scope in order to find out more about ourselves. We learn who we are in practice not in theory."
+  overview: "An argument for breadth, sampling, and cross-domain learning in a culture that often overvalues early specialization."
+  themes:
+    - "Generalism"
+    - "Learning transfer"
+    - "Career development"
 
 - title: "Possible Minds: Twenty-Five Ways of Looking at AI"
   author: "John Brockman"
@@ -91,7 +140,13 @@
   category: "Technology"
   rating: 4
   goodreads: "https://www.goodreads.com/en/book/show/40338436"
+  published: "2019"
   thoughts: "It's a bit of a mixed bag - some of the essays brilliant and others are not so much. I liked the one by Stephen Wolfram. Interesting read though, I dropped my jaw a few times."
+  overview: "A collection of essays from scientists, technologists, and thinkers responding to the possibilities and risks of artificial intelligence."
+  themes:
+    - "Artificial intelligence"
+    - "Future of technology"
+    - "Expert perspectives"
 
 - title: "The Accidental Mind: How Brain Evolution Has Given Us Love, Memory, Dreams, and God"
   author: "David J. Linden"
@@ -100,16 +155,28 @@
   category: "Neuroscience"
   rating: 4.5
   goodreads: "https://www.goodreads.com/book/show/380955.The_Accidental_Mind"
+  published: "2007"
   thoughts: "What an eye opener! The premise of the book is that the brain is not designed well at all - it's a kludge. Interesting ideas about why there's religion across all human cultures and other things. I love it when authors go out on a limb with some wild ideas."
+  overview: "A neuroscience book that presents the brain as an evolved, improvised system rather than a cleanly engineered machine."
+  themes:
+    - "Brain evolution"
+    - "Neuroscience"
+    - "Human behaviour"
 
 - title: "Understanding the Brain: From Cells to Behaviour to Cognition"
-  author: "John E. Downling"
+  author: "John E. Dowling"
   cover: "/assets/images/books/generated/understanding-the-brain.webp"
   status: "read"
   category: "Neuroscience"
   rating: 4.5
   goodreads: "https://www.goodreads.com/book/show/38311431-understanding-the-brain"
+  published: "2018"
   thoughts: "The way the brain works is very different from the way artificial neural networks work. Brain function is way more nuanced and complex. I love books like this that touch on a topic that we understand a lot about but also know less than there is to know about. Great intro to neuroscience."
+  overview: "An introductory tour of the nervous system, moving from neurons and circuits to perception, behaviour, cognition, and brain disorders."
+  themes:
+    - "Neuroscience"
+    - "Cognition"
+    - "Brain systems"
 
 - title: "Deep Work: Rules for Focused Success in a Distracted World"
   author: "Cal Newport"
@@ -118,7 +185,13 @@
   category: "Productivity"
   rating: 4.5
   goodreads: "https://www.goodreads.com/book/show/25744928-deep-work"
+  published: "2016"
   thoughts: "I resonate with the call for more deep work and less shallow work. Nit-picking but can be repetitive."
+  overview: "A productivity book about protecting long, focused blocks of cognitively demanding work in a world of distraction and shallow tasks."
+  themes:
+    - "Focus"
+    - "Knowledge work"
+    - "Attention"
 
 - title: "Kinds Of Minds: Toward An Understanding Of Consciousness"
   author: "Daniel C. Dennett"
@@ -127,7 +200,13 @@
   category: "Philosophy"
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/2074.Kinds_of_Minds"
+  published: "1996"
   thoughts: "Short but thought-provoking read on what consciousness may be in other minds. What makes a mind powerful/conscious is not what it's made of or how big it is, but what it can do. Manipulating and considering our concepts is what separates human minds from everything else."
+  overview: "A philosophical exploration of what minds are, how they may differ across animals and humans, and what consciousness might require."
+  themes:
+    - "Philosophy of mind"
+    - "Consciousness"
+    - "Animal cognition"
 
 - title: "In Praise of Wasting Time"
   author: "Alan Lightman"
@@ -136,7 +215,13 @@
   category: "Psychology"
   rating: 3.5
   goodreads: "https://www.goodreads.com/en/book/show/36580668"
+  published: "2018"
   thoughts: "Very short and interesting. It's refreshing to know that it's OK to waste time... sometimes. One of the key takeaways: a prepared mind wandering is necessary for creativity."
+  overview: "A short reflection on idleness, attention, creativity, and the value of unstructured mental space."
+  themes:
+    - "Creativity"
+    - "Attention"
+    - "Leisure"
 
 - title: "The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain from Vienna 1900 to the Present"
   author: "Eric R. Kandel"
@@ -145,7 +230,13 @@
   category: "Neuroscience"
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/12263681-the-age-of-insight"
+  published: "2012"
   thoughts: "I enjoyed this more than I thought I would. Basically, lots went down in the development of art, modern medicine and science in Vienna from 1900 - Einstein, painters/artists, psychology, Freud, Jung etc. to DNA."
+  overview: "A wide-ranging history connecting Vienna 1900, modern art, psychoanalysis, neuroscience, and the scientific study of perception and emotion."
+  themes:
+    - "Art and neuroscience"
+    - "Vienna 1900"
+    - "Perception"
 
 - title: "Reductionism in Art and Brain Science: Bridging the 2 Cultures"
   author: "Eric R. Kandel"
@@ -154,7 +245,13 @@
   category: "Neuroscience"
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/29587078-reductionism-in-art-and-brain-science"
+  published: "2016"
   thoughts: "Reductionism in art taps into mechanisms in the brain for interpreting reality, in colour, shapes, edges, faces etc. I've gained a deeper appreciation for reductionist art because of this book."
+  overview: "A study of how reductionist art can illuminate the brain's mechanisms for perception, interpretation, and emotional response."
+  themes:
+    - "Art"
+    - "Brain science"
+    - "Perception"
 
 - title: "Reclaim Your Brain: How to Calm Your Thoughts, Heal Your Mind, and Bring Your Life Back Under Control"
   author: "Joseph A. Annibali"
@@ -163,7 +260,13 @@
   category: "Psychology"
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/25310679-reclaim-your-brain"
+  published: "2015"
   thoughts: "I enjoyed reading this, it covers the mechanisms of the brain and how to manage oneself. One of the key takeaways: find what energises you/fills your spiritual well. Do it bit by bit and let it expand."
+  overview: "A practical mental-health book about managing anxiety, obsessive thoughts, mood, attention, and the habits that shape emotional regulation."
+  themes:
+    - "Mental health"
+    - "Self-regulation"
+    - "Neuroscience"
 
 - title: "Conscious: A Brief Guide of the Fundamental Mystery of the Mind"
   author: "Annaka Harris"
@@ -172,7 +275,13 @@
   category: "Philosophy"
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/41571759-conscious"
+  published: "2019"
   thoughts: "One interesting insight from the book is that we don't seem to consciously choose to do something. Some other processes, experience, the environment, circumstances etc. decide what we do but we get a sense of agency about what we've done. We have the illusion that we are in control and yet the reality we perceive is an edited version of the recent past - our brain processes are in a constant state of editing to synchronise sounds and touch and sights into a coherent whole. Events unfold and we consciously witness them."
+  overview: "A concise introduction to the hard problem of consciousness, subjective experience, and the possibility that consciousness may be more fundamental than it seems."
+  themes:
+    - "Consciousness"
+    - "Philosophy of mind"
+    - "Subjective experience"
 
 - title: "Healing Back Pain: The Mind-Body Connection"
   author: "John E. Sarno"
@@ -181,7 +290,13 @@
   category: "Health"
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/144873.Healing_Back_Pain"
+  published: "1991"
   thoughts: "I heard good things about this book and I was curious -- I don't actually have and I've never really had back pain. I enjoyed this book. The premise is that TMS (Tension Myoneural Syndrome) and psychological factors can cause back pain - not just injury. Additionally you can overcome this pain, sometimes instantaneously after years of pain just by understanding what it is. It seems to work based on what I've heard people say in random places -- I think there's something to it."
+  overview: "A mind-body health book arguing that some chronic back pain can be linked to tension, stress, and psychological factors rather than structural injury alone."
+  themes:
+    - "Mind-body medicine"
+    - "Pain"
+    - "Stress"
 
 - title: "The Spirit of Kaizen: Creating Lasting Excellence One Step at a Time"
   author: "Robert Maurer"
@@ -190,7 +305,13 @@
   category: "Business"
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/15854744-the-spirit-of-kaizen"
+  published: "2012"
   thoughts: "Kaizen means good change. Simple and straightforward approach to improving anything. The steps outlined are deceptively simple and powerful. The book has lots of examples drawn from business and life situations that make it readily applicable."
+  overview: "A practical book on kaizen, the practice of continuous improvement through small, manageable changes."
+  themes:
+    - "Kaizen"
+    - "Continuous improvement"
+    - "Behaviour change"
 
 - title: "The Nature Fix: Why Nature Makes Us Happier, Healthier, and More Creative"
   author: "Florence Williams"
@@ -199,4 +320,10 @@
   category: "Psychology"
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/35187181-the-nature-fix"
+  published: "2017"
   thoughts: "Convincing read about the benefits of nature and the outdoors. The message was simple enough - the book could have been much shorter - but I stayed for the stories and humour. Good stuff."
+  overview: "A science-and-travel book about how exposure to nature affects mood, stress, attention, creativity, and wellbeing."
+  themes:
+    - "Nature"
+    - "Wellbeing"
+    - "Attention restoration"
