@@ -58,6 +58,26 @@
     - "Python"
     - "Computer science fundamentals"
 
+- title: "The Matter with Things: Our Brains, Our Delusions, and the Unmaking of the World"
+  author: "Iain McGilchrist"
+  status: "currently_reading"
+  category: "Philosophy"
+  rating: 0
+  published: "2021"
+  published_date: "9 November 2021"
+  publisher: "Perspectiva Press"
+  pages: 1500
+  isbn13: "978-1914568060"
+  edition: "Hardcover, two volumes"
+  goodreads: "https://www.goodreads.com/search?q=The+Matter+with+Things+Iain+McGilchrist"
+  thoughts: "Currently reading."
+  overview: "A two-volume work of neuroscience, epistemology, and metaphysics that extends McGilchrist's hemisphere hypothesis into questions of truth, reality, consciousness, value, and the modern world's dominant ways of seeing."
+  themes:
+    - "Philosophy of mind"
+    - "Neuroscience"
+    - "Epistemology"
+    - "Metaphysics"
+
 - title: "Atomic Habits"
   author: "James Clear"
   cover: "/assets/images/books/generated/atomic-habits.webp"
