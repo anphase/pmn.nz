@@ -58,8 +58,11 @@ layout: default
     {% endif %}
   </section>
 
-  <section class="book-page-section">
-    <p class="eyebrow">Further notes</p>
-    {{ content }}
-  </section>
+  {% assign extra_notes = content | strip %}
+  {% if extra_notes != "" %}
+    <section class="book-page-section">
+      <p class="eyebrow">Further notes</p>
+      {{ content }}
+    </section>
+  {% endif %}
 </article>
