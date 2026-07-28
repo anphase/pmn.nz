@@ -13,7 +13,7 @@ layout: default
   <header class="book-page-hero">
     {% if book.cover %}
       <div class="book-art book-page-cover">
-        <img src="{{ book.cover | relative_url }}" alt="{{ page.title }} cover artwork" width="512" height="768">
+        <img src="{{ book.cover | relative_url }}" alt="{{ page.title }} cover artwork" width="512" height="768" decoding="async">
       </div>
     {% else %}
       <div class="book-art book-page-cover">

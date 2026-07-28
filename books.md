@@ -2,7 +2,7 @@
 layout: page
 title: Books
 permalink: /books/
-date: 2024-04-26
+date: 2026-07-28
 ---
 
 <section class="page-hero books-hero">
@@ -49,9 +49,11 @@ date: 2024-04-26
   </label>
 </section>
 
+<p class="filter-results" id="book-results" aria-live="polite"></p>
+
 {% assign current_books = site.data.books | where: "status", "currently_reading" %}
 {% if current_books.size > 0 %}
-  <section class="book-section">
+  <section class="book-section" data-book-section>
     <div class="section-heading">
       <p class="eyebrow">Now reading</p>
       <h2>In progress</h2>
@@ -64,7 +66,7 @@ date: 2024-04-26
           <div class="book-header">
             <div class="book-art">
               {% if book.cover %}
-                <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768">
+                <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768" loading="lazy" decoding="async">
               {% else %}
                 <span class="book-art-placeholder">{{ book.title }}</span>
               {% endif %}
@@ -95,7 +97,7 @@ date: 2024-04-26
   </section>
 {% endif %}
 
-<section class="book-section">
+<section class="book-section" data-book-section>
   <div class="section-heading">
     <p class="eyebrow">Shelf notes</p>
     <h2>Finished reads</h2>
@@ -109,7 +111,7 @@ date: 2024-04-26
           <div class="book-header">
             <div class="book-art">
               {% if book.cover %}
-                <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768">
+                <img src="{{ book.cover | relative_url }}" alt="{{ book.title }} cover artwork" width="512" height="768" loading="lazy" decoding="async">
               {% else %}
                 <span class="book-art-placeholder">{{ book.title }}</span>
               {% endif %}
@@ -145,6 +147,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const ratingFilter = document.getElementById('rating-filter');
   const statusFilter = document.getElementById('status-filter');
   const bookCards = document.querySelectorAll('.book-entry');
+  const bookSections = document.querySelectorAll('[data-book-section]');
+  const resultSummary = document.getElementById('book-results');
 
   function filterBooks() {
     const selectedCategory = categoryFilter.value;
@@ -162,10 +166,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
       card.hidden = !(categoryMatch && ratingMatch && statusMatch);
     });
+
+    bookSections.forEach(section => {
+      section.hidden = !section.querySelector('.book-entry:not([hidden])');
+    });
+
+    const visibleCount = document.querySelectorAll('.book-entry:not([hidden])').length;
+    resultSummary.textContent = visibleCount === bookCards.length
+      ? `${visibleCount} books`
+      : `${visibleCount} of ${bookCards.length} books`;
   }
 
   categoryFilter.addEventListener('change', filterBooks);
   ratingFilter.addEventListener('change', filterBooks);
   statusFilter.addEventListener('change', filterBooks);
+  filterBooks();
 });
 </script>

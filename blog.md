@@ -7,7 +7,7 @@ permalink: /blog/
 <section class="blog-intro">
   <p class="eyebrow">Writing</p>
   <h1>Posts and notes</h1>
-  <p>Thoughts, experiences, and things I'm learning about technology, DevOps, systems, and whatever else is currently tugging at my attention.</p>
+  <p>Notes on technology, DevOps, systems, and whatever else is tugging at my attention.</p>
 </section>
 
 <section class="blog-posts">

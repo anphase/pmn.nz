@@ -1,5 +1,4 @@
 ---
 layout: book
-title: "Kinds Of Minds: Toward An Understanding Of Consciousness"
+title: "Kinds of Minds: Toward an Understanding of Consciousness"
 ---
-

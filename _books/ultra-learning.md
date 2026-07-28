@@ -1,5 +1,4 @@
 ---
 layout: book
-title: "Ultra-learning"
+title: "Ultralearning"
 ---
-
