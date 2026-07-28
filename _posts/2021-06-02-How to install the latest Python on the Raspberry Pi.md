@@ -5,13 +5,14 @@ categories: productivity
 date:   2021-06-02
 ---
 
-I love tinkering with the Raspberry Pis, but one annoying thing about the [Raspberry Pi OS](https://www.raspberrypi.org/software/)  (previously called Raspbian) is that it doesn't always ship with the latest version of Python. As of this writing, that's Python version 3.9.5. 
-*(Note: To use this tutorial for a newer version of Python, you just need to modify any references to **3.9.5** to the version you want.)*
+I love tinkering with Raspberry Pis, but one annoying thing about [Raspberry Pi OS](https://www.raspberrypi.org/software/), previously called Raspbian, is that it does not always ship with the latest version of Python.
 
-To install the latest version of Python, we have to build it from the source and install it. I will walk through the steps that I followed to get up and running. 
+*Archive note: This 2021 guide targets Python 3.9.5 and an older Raspberry Pi OS release. Package names and installation advice may have changed.*
+
+To install Python 3.9.5, we have to build it from source. Here are the steps I followed.
 
 ## Build
-To get started, we need to fire up the terminal and install the dependencies.:
+To get started, open the terminal and install the dependencies:
 ```bash
 sudo apt-get update
 

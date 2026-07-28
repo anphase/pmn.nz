@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="{{ site.lang | default: 'en' }}">
 
   {% include head.html %}
 
   <body class="theme-base-0c">
 
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
     {% include sidebar.html %}
 
-    <div class="content container">
+    <main class="content container" id="main-content">
       {{ content }}
-    </div>
+    </main>
 
   </body>
 </html>

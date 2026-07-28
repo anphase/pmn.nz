@@ -1,0 +1,599 @@
+# Editorial queue compiled from Apple Notes entries beginning with "{books;".
+# Initial capture: 132 unique candidates from 364 Notes search results.
+# The remaining results can be added in later passes without blocking site updates.
+# `metadata_status` is either verified, needs_review, or needs_metadata.
+# Move an entry to books.yml only after its personal note and cover are ready.
+
+- title: "Why We Remember"
+  author: "Charan Ranganath"
+  published: "2024"
+  category: "Neuroscience"
+  note_year: "2024"
+  metadata_status: "verified"
+
+- title: "Models of the Mind: How Physics, Engineering and Mathematics Have Shaped Our Understanding of the Brain"
+  author: "Grace Lindsay"
+  published: "2021"
+  category: "Neuroscience"
+  note_year: "2024"
+  metadata_status: "verified"
+
+- title: "Darwin's Dangerous Idea: Evolution and the Meanings of Life"
+  author: "Daniel C. Dennett"
+  published: "1995"
+  category: "Philosophy"
+  note_year: "2024"
+  metadata_status: "verified"
+
+- title: "Strangers to Ourselves"
+  note_year: "2024"
+  metadata_status: "needs_review"
+
+- title: "Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity"
+  author: "Gloria Mark"
+  published: "2023"
+  category: "Psychology"
+  note_year: "2024"
+  metadata_status: "verified"
+
+- title: "The Journey of the Mind: How Thinking Emerged from Chaos"
+  author: "Ogi Ogas and Sai Gaddam"
+  published: "2022"
+  category: "Science"
+  note_year: "2024"
+  metadata_status: "verified"
+
+- title: "The Brain from Inside Out"
+  author: "György Buzsáki"
+  published: "2019"
+  category: "Neuroscience"
+  note_year: "2024"
+  metadata_status: "verified"
+
+- title: "Incomplete Nature: How Mind Emerged from Matter"
+  author: "Terrence W. Deacon"
+  published: "2011"
+  category: "Science"
+  note_year: "2024"
+  metadata_status: "verified"
+
+- title: "The Drunkard's Walk: How Randomness Rules Our Lives"
+  author: "Leonard Mlodinow"
+  published: "2008"
+  category: "Science"
+  note_year: "2024"
+  metadata_status: "verified"
+
+- title: "Zero to Birth: How the Human Brain Is Built"
+  author: "W. A. Harris"
+  published: "2022"
+  category: "Neuroscience"
+  note_year: "2024"
+  metadata_status: "verified"
+
+- title: "The Myth of Artificial Intelligence: Why Computers Can't Think the Way We Do"
+  author: "Erik J. Larson"
+  published: "2021"
+  category: "Technology"
+  note_year: "2023"
+  metadata_status: "verified"
+
+- title: "Do Hard Things: Why We Get Resilience Wrong and the Surprising Science of Real Toughness"
+  author: "Steve Magness"
+  published: "2022"
+  category: "Psychology"
+  note_year: "2023"
+  metadata_status: "verified"
+
+- title: "How to Be Better at Almost Everything"
+  note_title: "How To Be Happy At Almost Everything"
+  note_year: "2023"
+  metadata_status: "needs_review"
+
+- title: "Four Thousand Weeks: Time Management for Mortals"
+  author: "Oliver Burkeman"
+  published: "2021"
+  category: "Productivity"
+  note_year: "2023"
+  metadata_status: "verified"
+
+- title: "On Task: How Our Brain Gets Things Done"
+  author: "David Badre"
+  published: "2020"
+  category: "Neuroscience"
+  note_year: "2023"
+  metadata_status: "verified"
+
+- title: "The Nature of Technology: What It Is and How It Evolves"
+  author: "W. Brian Arthur"
+  published: "2009"
+  category: "Technology"
+  note_year: "2023"
+  metadata_status: "verified"
+
+- title: "Undisruptable"
+  note_title: "Undesruptable"
+  note_year: "2023"
+  metadata_status: "needs_review"
+
+- title: "Forgetting"
+  note_year: "2023"
+  metadata_status: "needs_review"
+
+- title: "Pride and Joy"
+  note_year: "2023"
+  metadata_status: "needs_review"
+
+- title: "Being You: A New Science of Consciousness"
+  author: "Anil Seth"
+  published: "2021"
+  category: "Neuroscience"
+  note_year: "2022"
+  metadata_status: "verified"
+
+- title: "Designing Data-Intensive Applications"
+  author: "Martin Kleppmann"
+  published: "2017"
+  category: "Programming"
+  note_year: "2022"
+  metadata_status: "verified"
+
+- title: "The Neuroscience of Memory"
+  note_year: "2022"
+  metadata_status: "needs_review"
+
+- title: "API Security in Action"
+  author: "Neil Madden"
+  published: "2020"
+  category: "Programming"
+  note_year: "2022"
+  metadata_status: "verified"
+
+- title: "Noise: A Flaw in Human Judgment"
+  author: "Daniel Kahneman, Olivier Sibony, and Cass R. Sunstein"
+  published: "2021"
+  category: "Psychology"
+  note_year: "2022"
+  metadata_status: "verified"
+
+- title: "The Society of Mind"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Metamagical Themas"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Projections"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Hyperfocus"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "The Practicing Mind"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Learn Like a Pro"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Beginning of Infinity"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "A Remote Worker's Survival Guide"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Walk Like a Buddha"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "How to Train a Wild Elephant"
+  note_title: "How to Train an Elephant"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "DevOps: Building Software with Lean Processes for Modern Businesses"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Upside of Irrationality"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Invincible"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Is God a Mathematician?"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Secrets of Consciousness"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "A Question of Time"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Stein on Writing"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Where Are We Heading?"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "The Tyranny of Merit"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "How to Stay Focused"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "How to Be Unstoppable"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Fundamentals"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "A Guide to the Good Life"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "I Am a Strange Loop"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Meaning of It All"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "How to Talk to Anyone, Anytime"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "An Introduction to Information Theory: Symbols, Signals and Noise"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Spike"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "How Language Was Made"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "How Innovation Works"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Mind in Motion"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Surfaces and Essences"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "A World Without Email"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "When the Past Is Present"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Skip the Line"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Pleased to Meet Me"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "How to Consciously Design Your Ideal Future"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "How to Train Your Mind"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Light Falls"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "The Success Lie"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Becoming Fluent"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Idea of the World"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Mind Is Flat"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "A Thousand Brains"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Cracking the Data Interview"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Cracking the Coding Interview"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Painted Bird"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Master and His Emissary"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Reasons and Persons"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "An Enquiry Concerning Human Understanding"
+  note_title: "An Inquiry Concerning Human Understanding"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "What Kind of Creatures Are We?"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "On Having No Head"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Feeling Good"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "How Will You Measure Your Life?"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Computational Thinking"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "The Feeling of Life Itself"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Success Equation"
+  note_title: "The Success Equations"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Shadows of the Mind"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "A World Beyond Physics"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Kludge"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Parasitic Mind"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Billions and Billions"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Broca's Brain"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Case Against Reality"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Complexity and Chaos"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Exhalation"
+  note_title: "Exhalations"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "American Cosmic"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Clutter Connection"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Biology of Thought"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Mental Toughness Advantage"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Freeing Yourself from Anxiety"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "The Practice"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "The Worry-Free Mind"
+  note_year: "2021"
+  metadata_status: "needs_metadata"
+
+- title: "Incognito"
+  note_year: "2021"
+  metadata_status: "needs_review"
+
+- title: "Faster Than Normal"
+  note_year: "2019"
+  metadata_status: "needs_metadata"
+
+- title: "The Age of Agile"
+  note_year: "2019"
+  metadata_status: "needs_metadata"
+
+- title: "Get Out of Your Own Way"
+  note_year: "2019"
+  metadata_status: "needs_review"
+
+- title: "Your New Money Story"
+  note_year: "2019"
+  metadata_status: "needs_metadata"
+
+- title: "Failure: Why Science Is So Successful"
+  note_year: "2019"
+  metadata_status: "needs_metadata"
+
+- title: "You Can Be Happy No Matter What"
+  note_year: "2018"
+  metadata_status: "needs_metadata"
+
+- title: "The Element"
+  note_year: "2018"
+  metadata_status: "needs_review"
+
+- title: "Me, Myself, and Us"
+  note_year: "2018"
+  metadata_status: "needs_review"
+
+- title: "The Big Picture"
+  note_year: "2018"
+  metadata_status: "needs_review"
+
+- title: "The E-Myth Revisited"
+  note_title: "E-Myth Revisited"
+  note_year: "2018"
+  metadata_status: "needs_review"
+
+- title: "Don't Bullsh*t Yourself"
+  note_year: "2018"
+  metadata_status: "needs_metadata"
+
+- title: "The Power of Meaning"
+  note_year: "2018"
+  metadata_status: "needs_metadata"
+
+- title: "Intuition Pumps"
+  note_year: "2018"
+  metadata_status: "needs_metadata"
+
+- title: "Your Brain on Porn"
+  note_year: "2018"
+  metadata_status: "needs_metadata"
+
+- title: "Good Habits for Great Coding"
+  note_year: "2018"
+  metadata_status: "needs_review"
+
+- title: "From Bacteria to Bach and Back"
+  note_title: "From Bacteria to Back and Back"
+  note_year: "2018"
+  metadata_status: "needs_review"
+
+- title: "The Power of Myth"
+  note_year: "2018"
+  metadata_status: "needs_metadata"
+
+- title: "Head First Design Patterns"
+  note_title: "Head First Design"
+  note_year: "2018"
+  metadata_status: "needs_review"
+
+- title: "The Worry Trick"
+  note_year: "2018"
+  metadata_status: "needs_metadata"
+
+- title: "Finite and Infinite Games"
+  note_title: "Finite Sand Infinite Games"
+  note_year: "2017"
+  metadata_status: "needs_review"
+
+- title: "Think Like a Freak"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "Scale"
+  note_year: "2017"
+  metadata_status: "needs_review"
+
+- title: "The Startup J Curve"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "Connectome"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "Platform Revolution"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "How to Stop Worrying and Start Living"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "Real Artists Don't Starve"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "The 5 Elements of Effective Thinking"
+  note_title: "5 Elements of Effective Thinking"
+  note_year: "2017"
+  metadata_status: "needs_review"
+
+- title: "The Blind Watchmaker"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "Getting Things Done"
+  note_title: "Get Things Done"
+  note_year: "2017"
+  metadata_status: "needs_review"
+
+- title: "You Are Now Less Dumb"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "The Power of Moments"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "The Confidence Gap"
+  note_year: "2017"
+  metadata_status: "needs_metadata"
+
+- title: "The Ego Tunnel"
+  note_year: "2017"
+  metadata_status: "needs_metadata"

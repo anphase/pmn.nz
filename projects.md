@@ -4,9 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-I will keep a list of projects that I have launched on this page.
+A running list of things I've built, launched, or learned from.
 
 * [Anphase Ltd., my business website](https://anphase.co.nz)
-* [The Anphase Blog: tech blog, est 2009](https://anphase.com)
-* [Saccader: book reviews](https://saccader.com)
-* [Say Eat Out: Food...](https://sayeatout.com)
+* [The Anphase Blog, technology writing since 2009](https://anphase.com)
+* [Saccader, thoughts as thinkers](https://saccader.com)
+* [Say Eat Out, a food discovery experiment](https://sayeatout.com)

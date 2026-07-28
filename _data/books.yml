@@ -60,6 +60,7 @@
 
 - title: "The Matter with Things: Our Brains, Our Delusions, and the Unmaking of the World"
   author: "Iain McGilchrist"
+  cover: "/assets/images/books/generated/the-matter-with-things.webp"
   status: "currently_reading"
   category: "Philosophy"
   rating: 0
@@ -70,6 +71,15 @@
   isbn13: "978-1914568060"
   edition: "Hardcover, two volumes"
   goodreads: "https://www.goodreads.com/search?q=The+Matter+with+Things+Iain+McGilchrist"
+  ratings:
+    goodreads:
+      value:
+      count:
+      captured:
+    amazon:
+      value:
+      count:
+      captured:
   thoughts: "Currently reading."
   overview: "A two-volume work of neuroscience, epistemology, and metaphysics that extends McGilchrist's hemisphere hypothesis into questions of truth, reality, consciousness, value, and the modern world's dominant ways of seeing."
   themes:
@@ -93,7 +103,7 @@
     - "Behaviour change"
     - "Compounding improvement"
 
-- title: "Ultra-learning"
+- title: "Ultralearning"
   author: "Scott Young"
   cover: "/assets/images/books/generated/ultra-learning.webp"
   status: "read"
@@ -101,7 +111,7 @@
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/44770129-ultralearning"
   published: "2019"
-  thoughts: "Packed with practical advice about learning. The 9 Principles of ultra-learning: meta learning, focus, directness, drill, retrieval, feedback, retention, intuition, experimentation. Will need to revisit this, makes a lot of sense and is backed up by some compelling data."
+  thoughts: "Packed with practical advice about learning. The nine principles of ultralearning are metalearning, focus, directness, drill, retrieval, feedback, retention, intuition, and experimentation. I will need to revisit this. It makes a lot of sense and is backed by compelling data."
   overview: "A guide to intense, self-directed learning projects built around focus, direct practice, feedback, retrieval, and deliberate experimentation."
   themes:
     - "Learning"
@@ -116,7 +126,7 @@
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/35412097-when"
   published: "2018"
-  thoughts: "Eye opening read. I had no idea we all have chronotypes that determine our ability to perform across the day - the difference between these times can be profound. I love books like this that reveal or expand on things in plain sight."
+  thoughts: "An eye-opening read. I had no idea how strongly chronotypes can shape our performance across the day. I love books like this that reveal or expand on things hiding in plain sight."
   overview: "A book about timing: daily rhythms, chronotypes, beginnings, midpoints, endings, breaks, and how time shapes performance and decisions."
   themes:
     - "Timing"
@@ -124,14 +134,14 @@
     - "Decision rhythms"
 
 - title: "Gene Machine: The Race to Decipher the Secrets of the Ribosome"
-  author: "Venki Ramakrishna"
+  author: "Venki Ramakrishnan"
   cover: "/assets/images/books/generated/gene-machine.webp"
   status: "read"
   category: "Science"
   rating: 4
   goodreads: "https://www.goodreads.com/en/book/show/39088590"
   published: "2018"
-  thoughts: "Interesting read about the author's journey to winning the Nobel Prize in Chemistry. Reminds me of Eric R. Kandel's book, In Search of Memory, which is also a story about that author's journey to a Nobel Prize. The amount of hard work mixed with strokes of luck in these types of books/stories always fascinating to me."
+  thoughts: "An interesting account of the author's journey to the Nobel Prize in Chemistry. It reminds me of Eric R. Kandel's In Search of Memory, another story of the long road to a Nobel Prize. The mix of hard work and lucky breaks in these stories is always fascinating to me."
   overview: "A scientific memoir about the race to understand the ribosome, the people involved, and the long path from research uncertainty to Nobel recognition."
   themes:
     - "Molecular biology"
@@ -146,7 +156,7 @@
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/41795733-range"
   published: "2019"
-  thoughts: "Fascinating book encouraging us to broaden our scope in order to find out more about ourselves. We learn who we are in practice not in theory."
+  thoughts: "A fascinating book that encourages us to broaden our scope and learn more about ourselves. We discover who we are in practice, not in theory."
   overview: "An argument for breadth, sampling, and cross-domain learning in a culture that often overvalues early specialization."
   themes:
     - "Generalism"
@@ -161,7 +171,7 @@
   rating: 4
   goodreads: "https://www.goodreads.com/en/book/show/40338436"
   published: "2019"
-  thoughts: "It's a bit of a mixed bag - some of the essays brilliant and others are not so much. I liked the one by Stephen Wolfram. Interesting read though, I dropped my jaw a few times."
+  thoughts: "It's a mixed bag: some essays are brilliant and others less so. I especially liked Stephen Wolfram's. An interesting read that made my jaw drop a few times."
   overview: "A collection of essays from scientists, technologists, and thinkers responding to the possibilities and risks of artificial intelligence."
   themes:
     - "Artificial intelligence"
@@ -176,7 +186,7 @@
   rating: 4.5
   goodreads: "https://www.goodreads.com/book/show/380955.The_Accidental_Mind"
   published: "2007"
-  thoughts: "What an eye opener! The premise of the book is that the brain is not designed well at all - it's a kludge. Interesting ideas about why there's religion across all human cultures and other things. I love it when authors go out on a limb with some wild ideas."
+  thoughts: "What an eye-opener. The book argues that the brain is not well designed at all. It is a kludge. It explores why religion appears across human cultures and other provocative ideas. I love it when authors go out on a limb."
   overview: "A neuroscience book that presents the brain as an evolved, improvised system rather than a cleanly engineered machine."
   themes:
     - "Brain evolution"
@@ -213,7 +223,7 @@
     - "Knowledge work"
     - "Attention"
 
-- title: "Kinds Of Minds: Toward An Understanding Of Consciousness"
+- title: "Kinds of Minds: Toward an Understanding of Consciousness"
   author: "Daniel C. Dennett"
   cover: "/assets/images/books/generated/kinds-of-minds.webp"
   status: "read"
@@ -221,7 +231,7 @@
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/2074.Kinds_of_Minds"
   published: "1996"
-  thoughts: "Short but thought-provoking read on what consciousness may be in other minds. What makes a mind powerful/conscious is not what it's made of or how big it is, but what it can do. Manipulating and considering our concepts is what separates human minds from everything else."
+  thoughts: "A short but thought-provoking read on what consciousness may be like in other minds. What makes a mind powerful or conscious is not what it is made of or how big it is, but what it can do. Manipulating and considering concepts is what separates human minds from everything else."
   overview: "A philosophical exploration of what minds are, how they may differ across animals and humans, and what consciousness might require."
   themes:
     - "Philosophy of mind"
@@ -236,7 +246,7 @@
   rating: 3.5
   goodreads: "https://www.goodreads.com/en/book/show/36580668"
   published: "2018"
-  thoughts: "Very short and interesting. It's refreshing to know that it's OK to waste time... sometimes. One of the key takeaways: a prepared mind wandering is necessary for creativity."
+  thoughts: "Short and interesting. It is refreshing to know that wasting time can be useful. One key takeaway is that a prepared, wandering mind is necessary for creativity."
   overview: "A short reflection on idleness, attention, creativity, and the value of unstructured mental space."
   themes:
     - "Creativity"
@@ -251,14 +261,14 @@
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/12263681-the-age-of-insight"
   published: "2012"
-  thoughts: "I enjoyed this more than I thought I would. Basically, lots went down in the development of art, modern medicine and science in Vienna from 1900 - Einstein, painters/artists, psychology, Freud, Jung etc. to DNA."
+  thoughts: "I enjoyed this more than I expected. A lot happened in the development of art, modern medicine, and science in Vienna around 1900, from painters, Freud, and Jung to the scientific ideas that followed."
   overview: "A wide-ranging history connecting Vienna 1900, modern art, psychoanalysis, neuroscience, and the scientific study of perception and emotion."
   themes:
     - "Art and neuroscience"
     - "Vienna 1900"
     - "Perception"
 
-- title: "Reductionism in Art and Brain Science: Bridging the 2 Cultures"
+- title: "Reductionism in Art and Brain Science: Bridging the Two Cultures"
   author: "Eric R. Kandel"
   cover: "/assets/images/books/generated/reductionism-in-art-and-brain-science.webp"
   status: "read"
@@ -288,7 +298,7 @@
     - "Self-regulation"
     - "Neuroscience"
 
-- title: "Conscious: A Brief Guide of the Fundamental Mystery of the Mind"
+- title: "Conscious: A Brief Guide to the Fundamental Mystery of the Mind"
   author: "Annaka Harris"
   cover: "/assets/images/books/generated/conscious.webp"
   status: "read"
@@ -296,7 +306,7 @@
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/41571759-conscious"
   published: "2019"
-  thoughts: "One interesting insight from the book is that we don't seem to consciously choose to do something. Some other processes, experience, the environment, circumstances etc. decide what we do but we get a sense of agency about what we've done. We have the illusion that we are in control and yet the reality we perceive is an edited version of the recent past - our brain processes are in a constant state of editing to synchronise sounds and touch and sights into a coherent whole. Events unfold and we consciously witness them."
+  thoughts: "One interesting insight is that we do not seem to choose actions consciously. Other processes, experience, environment, and circumstance shape what we do, while leaving us with a sense of agency. The reality we perceive is also an edited version of the recent past. The brain constantly synchronises sound, touch, and sight into a coherent whole. Events unfold, and we consciously witness them."
   overview: "A concise introduction to the hard problem of consciousness, subjective experience, and the possibility that consciousness may be more fundamental than it seems."
   themes:
     - "Consciousness"
@@ -311,7 +321,7 @@
   rating: 5
   goodreads: "https://www.goodreads.com/book/show/144873.Healing_Back_Pain"
   published: "1991"
-  thoughts: "I heard good things about this book and I was curious -- I don't actually have and I've never really had back pain. I enjoyed this book. The premise is that TMS (Tension Myoneural Syndrome) and psychological factors can cause back pain - not just injury. Additionally you can overcome this pain, sometimes instantaneously after years of pain just by understanding what it is. It seems to work based on what I've heard people say in random places -- I think there's something to it."
+  thoughts: "I heard good things about this book and was curious, although I have never really had back pain. Its premise is that TMS (Tension Myoneural Syndrome) and psychological factors can cause back pain, not only injury. It argues that understanding the cause can sometimes relieve years of pain. Based on the experiences I have heard from others, I think there may be something to it."
   overview: "A mind-body health book arguing that some chronic back pain can be linked to tension, stress, and psychological factors rather than structural injury alone."
   themes:
     - "Mind-body medicine"
@@ -341,7 +351,7 @@
   rating: 4
   goodreads: "https://www.goodreads.com/book/show/35187181-the-nature-fix"
   published: "2017"
-  thoughts: "Convincing read about the benefits of nature and the outdoors. The message was simple enough - the book could have been much shorter - but I stayed for the stories and humour. Good stuff."
+  thoughts: "A convincing read about the benefits of nature and the outdoors. The message was simple and the book could have been shorter, but I stayed for the stories and humour. Good stuff."
   overview: "A science-and-travel book about how exposure to nature affects mood, stress, attention, creativity, and wellbeing."
   themes:
     - "Nature"

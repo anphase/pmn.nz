@@ -1,5 +1,4 @@
 ---
 layout: book
-title: "Conscious: A Brief Guide of the Fundamental Mystery of the Mind"
+title: "Conscious: A Brief Guide to the Fundamental Mystery of the Mind"
 ---
-

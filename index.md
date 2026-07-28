@@ -6,9 +6,9 @@ permalink: /
 
 <section class="home-intro">
   <p class="eyebrow">Panashe's Panache Panacea</p>
-  <h1>A public notebook for scattered thoughts, useful patterns, books, and experiments.</h1>
-  <p>PMN is my workshop: a place for reading notes, essays, fragments, lab ideas, and the half-polished things that are still useful enough to keep in public.</p>
-  <p>For the polished professional front door, visit <a href="https://panashe.nz">panashe.nz</a>.</p>
+  <h1>Scattered thoughts, useful patterns, books, and experiments.</h1>
+  <p>PMN is my workshop for reading notes, essays, fragments, lab ideas, and half-polished things still worth keeping.</p>
+  <p>For my profile, selected work, and contact details, visit <a href="https://panashe.nz">panashe.nz</a>.</p>
 </section>
 
 {% assign latest_post = site.posts.first %}
@@ -51,16 +51,16 @@ permalink: /
   <article class="section-card">
     <p class="eyebrow">Books</p>
     <h2><a href="{{ '/books/' | relative_url }}">Reading notes</a></h2>
-    <p>A living shelf of books I've read, what stood out, and what I’m currently working through.</p>
+    <p>A living shelf of books I’ve read, what stayed with me, and what I’m working through now.</p>
   </article>
   <article class="section-card">
     <p class="eyebrow">Lab</p>
     <h2><a href="{{ '/projects/' | relative_url }}">Experiments</a></h2>
-    <p>Older projects, prototypes, and useful bits that do not need to be portfolio-grade to be worth keeping.</p>
+    <p>Older projects, prototypes, and useful bits that do not need to be portfolio-ready to be worth keeping.</p>
   </article>
   <article class="section-card">
     <p class="eyebrow">Identity</p>
     <h2><a href="https://panashe.nz">Panashe.nz</a></h2>
-    <p>The curated profile, CV, selected work, and contact details live on my real-name site.</p>
+    <p>My profile, CV, selected work, and contact details live on my real-name site.</p>
   </article>
 </section>
