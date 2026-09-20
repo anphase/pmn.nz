@@ -9,6 +9,7 @@ date: 2026-07-28
   <p class="eyebrow">Reading list</p>
   <h1>Books that left a mark</h1>
   <p>I read mostly nonfiction across science, technology, psychology, philosophy, business, and craft. These notes are less a ranking than a trail of what shaped my thinking.</p>
+  <p>For a new place to keep up with my reading, visit <a href="https://writingread.com/">Writing Read</a>.</p>
   <p class="page-note">Last updated: {{ page.date | date: "%B %-d, %Y" }}</p>
 </section>
 

@@ -23,6 +23,8 @@ Selfime:
 
 **Future:** There are still ideas worth salvaging. Maybe I'll pick it up someday. There's always room for another notes app.
 
+**Updated September 2026:** After spending years on this fails page, [Selfime](https://selfime.com/) is alive. It became a meditation app built around recording in your own voice. A different use for the name, but still self - I - me. I wrote about the journey in [The Long Game]({% post_url 2026-09-20-the-long-game %}).
+
 Memory.bike
 ---
 **When:** 2017-2018
@@ -45,3 +47,5 @@ Those notes could then become question-and-answer cards in Anki or a similar too
 - While learning Go through [Gophercises](https://gophercises.com/), I built a quiz CLI that does a little of this with questions and answers stored in a CSV file. My code is on [GitHub](https://github.com/anphase/go_quiz); the implementation follows Gophercises lesson 1. The lessons are free, practical, and fun.
 
 Work in progress.
+
+**Updated September 2026:** The memory lives on! I've just picked up the [memory.bike](https://memory.bike/) domain again, and the project is starting to come alive.
