@@ -2,11 +2,20 @@
 layout: default
 ---
 
-<div class="post">
+<div class="post{% if page.post_class %} {{ page.post_class | escape }}{% endif %}">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
+
+<dialog class="image-modal" id="image-modal" aria-label="Image preview">
+  <button class="image-modal-close" type="button" autofocus>Close <span aria-hidden="true">×</span></button>
+  <figure>
+    <img class="image-modal-image" alt="">
+    <figcaption class="image-modal-caption"></figcaption>
+  </figure>
+</dialog>
+<script src="{{ '/assets/js/image-modal.js' | relative_url }}" defer></script>
 
 <div class="related">
   <h2>Related Posts</h2>
