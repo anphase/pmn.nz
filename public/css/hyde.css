@@ -219,7 +219,7 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-0c .content a,
 .theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
+  color: var(--teal);
 }
 
 /* Blue */
