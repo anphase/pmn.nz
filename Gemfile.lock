@@ -18,7 +18,7 @@ GEM
       fiber-annotation
       fiber-local (~> 1.1)
       json
-    csv (3.3.5)
+    csv (3.3.6)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -103,11 +103,11 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-feed (0.17.0)
+    jekyll-feed (0.18.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-include-cache (0.2.1)
+    jekyll-include-cache (0.3.1)
       jekyll (>= 3.7, < 5.0)
-    jekyll-redirect-from (0.16.0)
+    jekyll-redirect-from (0.17.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
@@ -117,7 +117,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.20.0)
+    json (2.21.2)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
@@ -225,6 +225,7 @@ PLATFORMS
   x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
+  x86_64-linux
   x86_64-linux-android
   x86_64-linux-gnu
   x86_64-linux-musl
