@@ -11,4 +11,4 @@ By focusing on the process of documenting content and communicating ideas, I get
 
 I recently finished [Ultralearning][1], and it fits brilliantly with my commitment to being a lifelong learner. I am definitely applying some of its techniques. Today, it is important to become good at whatever you do, not only for your own sake but also for the people directly or indirectly affected by your work.
 
-[1]: /books/#ultra-learning "my thoughts on Ultra-learning book"
+[1]: /books/#ultralearning "my thoughts on Ultra-learning book"
