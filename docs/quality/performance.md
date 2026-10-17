@@ -18,7 +18,7 @@ Individual runs before (mobile): post 63/74/89, books 82/98/98, home 88/99/99. A
 ## What changed
 
 - **Fonts**: Google Fonts (two cross-origin hosts, render-blocking CSS) replaced by self-hosted latin subsets of the Fraunces and Inter variable fonts, `font-display: swap`, in `assets/fonts/` (Fraunces 55 KB, Inter 25 KB; weight axes limited to the 500-800 and 400-800 the site uses, opsz axis kept). Fraunces (headings, above the fold) is preloaded.
-- **CSS**: `poole.css`, `syntax.css`, `hyde.css` and `custom.css` (29,063 B, 4 requests) merged into `assets/css/site.css` (29,482 B including the `@font-face` rules, 1 request), same cascade order.
+- **CSS**: `poole.css`, `syntax.css`, `hyde.css` and `custom.css` (29,063 B, 4 requests) merged into `assets/css/site.css` (29,482 B including the `@font-face` rules, 1 request), same cascade order. Regenerated after the dark-mode tokens landed, so edit site.css directly now; there are no separate source files.
 - **Post images**: the four Selfime PNGs (1,361,262 B) are now WebP at their natural pixel size (148,142 B), saving 1,213,120 B (89%). The `width`/`height` attributes were already present and are unchanged; the two below-the-fold figures already had `loading="lazy"`, and the two figures at the top stay eager because they are in the first viewport. The image modal opens the same WebP file, so nothing is downscaled.
 - **Social card**: the post front matter `image` points at a 1132 px JPEG (`phone-experience-social.jpg`, under 100 KB) so og:image and the Twitter card stay in a format every crawler renders; it is not loaded by the page itself.
 - **Book covers**: already had `width="512" height="768"` and `loading="lazy"` on books.md and the book layout, so no change was needed.
