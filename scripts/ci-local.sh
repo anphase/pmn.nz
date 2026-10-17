@@ -15,3 +15,7 @@ JEKYLL_ENV=production bundle exec jekyll build --destination "$dest"
 bundle exec htmlproofer "$dest" --disable-external
 ruby test/check_seo_test.rb
 ruby scripts/check-seo.rb "$dest"
+
+npm ci --no-audit --no-fund
+npx playwright install chromium
+SITE_DIR="$dest" npm run test:e2e
