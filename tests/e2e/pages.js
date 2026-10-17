@@ -9,18 +9,17 @@ const book = fs.readdirSync(path.join(root, '_books')).filter(f => f.endsWith('.
 const PAGES = {
   home: '/',
   blog: '/blog/',
-  'newest post': `/blog/${y}/${m}/${d}/${slug}/`,
+  post: `/blog/${y}/${m}/${d}/${slug}/`,
   books: '/books/',
-  'book page': `/books/${book}/`,
+  book: `/books/${book}/`,
   projects: '/projects/',
   fails: '/fails/',
   404: '/404.html',
 };
 
-// Light only: the site has no dark theme yet (see .tracking.md).
-const THEMES = ['light'];
+const THEMES = ['light', 'dark'];
 const VIEWPORTS = [375, 1280];
 
 const url = p => process.env.E2E_BASE_URL + p;
 
-module.exports = { PAGES, THEMES, VIEWPORTS, url, newestPost: PAGES['newest post'] };
+module.exports = { PAGES, THEMES, VIEWPORTS, url, newestPost: PAGES.post };

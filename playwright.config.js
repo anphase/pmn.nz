@@ -6,5 +6,7 @@ module.exports = defineConfig({
   workers: 4,
   retries: 0,
   reporter: 'list',
-  use: { browserName: 'chromium' },
+  timeout: 15000,
+  // Workers start after globalSetup, so they see the URL it serves the build on.
+  use: { browserName: 'chromium', baseURL: process.env.E2E_BASE_URL, actionTimeout: 5000 },
 });

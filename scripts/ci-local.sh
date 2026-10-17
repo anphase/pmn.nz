@@ -18,4 +18,5 @@ ruby scripts/check-seo.rb "$dest"
 
 npm ci --no-audit --no-fund
 npx playwright install chromium
+npm test
 SITE_DIR="$dest" npm run test:e2e
