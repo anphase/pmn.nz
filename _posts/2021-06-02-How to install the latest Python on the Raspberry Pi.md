@@ -5,7 +5,7 @@ categories: productivity
 date:   2021-06-02
 ---
 
-I love tinkering with Raspberry Pis, but one annoying thing about [Raspberry Pi OS](https://www.raspberrypi.org/software/), previously called Raspbian, is that it does not always ship with the latest version of Python.
+I love tinkering with Raspberry Pis, but one annoying thing about [Raspberry Pi OS](https://www.raspberrypi.com/software/), previously called Raspbian, is that it does not always ship with the latest version of Python.
 
 *Archive note: This 2021 guide targets Python 3.9.5 and an older Raspberry Pi OS release. Package names and installation advice may have changed.*
 
