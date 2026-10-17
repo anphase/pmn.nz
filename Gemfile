@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "3.3.0"
+ruby ">= 3.3.0"
 
 gem "jekyll", "~> 4.4"
 
@@ -16,3 +16,7 @@ gem "csv", "~> 3.3"
 gem "jekyll-sass-converter", "~> 3.1"
 gem "kramdown-parser-gfm", "~> 1.1"
 gem "webrick", "~> 1.9"
+
+group :test do
+  gem "html-proofer", "~> 5.0"
+end
