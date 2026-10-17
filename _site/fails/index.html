@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-NZ">
 
   <head>
   <link href="https://gmpg.org/xfn/11" rel="profile">
@@ -7,40 +7,59 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
   <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>
-    
-      Fails &middot; Panashe's panache panacea
-    
-  </title>
+  <!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>Fails | PMN</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Fails" />
+<meta property="og:locale" content="en_NZ" />
+<meta name="description" content="Notes, books, experiments, and other useful nonsense." />
+<meta name="twitter:description" property="og:description" content="Notes, books, experiments, and other useful nonsense." />
+<link rel="canonical" href="http://localhost:4000/fails/" />
+<meta property="og:url" content="http://localhost:4000/fails/" />
+<meta property="og:site_name" content="PMN" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Fails" />
+<meta name="twitter:site" content="@anphase" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Notes, books, experiments, and other useful nonsense.","headline":"Fails","url":"http://localhost:4000/fails/"}</script>
+<!-- End Jekyll SEO tag -->
+
 
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650;9..144,800&family=Inter:wght@400;600;700;800&display=swap">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 </head>
 
 
   <body class="theme-base-0c">
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
         <a href="/">
-          Panashe's panache panacea
+          PMN
         </a>
       </h1>
-      <p class="lead">Hi, I'm Panashe, a life long learner, computer systems engineer and great wonderer of the world.
+      <p class="site-subtitle">Panashe's Panache Panacea</p>
+      <p class="lead">Notes, books, experiments, and other useful nonsense.
 </p>
     </div>
 
@@ -52,13 +71,17 @@
       
       
         
-          
+      
+        
+      
+        
+      
         
       
         
           
-            <a class="sidebar-nav-item" href="/about/">About</a>
-          
+        
+      
         
       
         
@@ -69,8 +92,10 @@
       
         
           
-            <a class="sidebar-nav-item" href="/cv/">CV</a>
+            <a class="sidebar-nav-item" href="/books/">Books</a>
           
+        
+      
         
       
         
@@ -85,41 +110,24 @@
       
         
           
-            <a class="sidebar-nav-item" href="/">Home</a>
-          
-        
-      
-        
-          
             <a class="sidebar-nav-item" href="/projects/">Projects</a>
           
         
       
-        
-      
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/books/index.html">Books</a>
-          
-        
-      
-        
-      
-        
-      
     </nav>
 
-    <p>&copy; 2025. All rights reserved.</p>
+    <div class="sidebar-footer">
+      <a href="https://panashe.nz">panashe.nz</a>
+      <span>&copy; 2026</span>
+    </div>
   </div>
 </div>
 
 
-    <div class="content container">
+    <main class="content container" id="main-content">
       <div class="page">
   <h1 class="page-title">Fails</h1>
-  <p>Although focusing on successes is great and all, I want to make a little space for some of my failed endeavours. So to some extent, this is like a project graveyard. I will describe what I was trying to build based on notes, code and or other efforts that I documented.</p>
+  <p>Successes get most of the attention, so this page makes room for failed endeavours: a small project graveyard reconstructed from notes, code, and whatever documentation survived.</p>
 
 <h2 id="selfime">Selfime:</h2>
 <p><strong>When:</strong> 2014-2015</p>
@@ -128,26 +136,28 @@
 
 <p><strong>Points:</strong></p>
 <ul>
-  <li>I didn’t like the landscape of notes apps as far as information organisation.</li>
-  <li>I wanted to create an app that slowly gets to know me (Self-I-Me…), automatically arganises information based on hashtags or something.</li>
-  <li>I wanted to create an app that uses hash tags (or something) trigger events. Say for instance, I’m writing this post and I want to post it to my WordPress blog. What if all I needed to do to accomplish that is just type <code class="language-plaintext highlighter-rouge">#wordpress(@'Anphase Blog')</code> and boom! This very text goes to the <a href="https://anphase.com">Anphase Blog</a>.</li>
+  <li>I didn’t like how existing notes apps organised information.</li>
+  <li>I wanted an app that would slowly get to know me (Self-I-Me), automatically organising information from hashtags or similar cues.</li>
+  <li>I wanted hashtags to trigger actions. For example, what if adding <code class="language-plaintext highlighter-rouge">#wordpress(@'Anphase Blog')</code> to a note were enough to publish it to my WordPress blog?</li>
 </ul>
 
-<p>Come to think of it, <a href="https://reddit.com">Reddit</a> bots kinda do something like that. Typing something like “RemindMe! in 24hrs” triggers a bot that will remind the commenter of the thread. We don’t really see powerful actions in notes apps beyond calendar actions and tagging.</p>
+<p><a href="https://reddit.com">Reddit</a> bots do something similar: typing “RemindMe! in 24hrs” triggers a reminder. We still don’t see many powerful actions in notes apps beyond calendar events and tagging.</p>
 
-<p><strong>Why did it fail:</strong> I never made any progress on it beyond registering the domain SelfIMe.com only to let it expire when I realised it had nothing to do with the ideas I was building around it.</p>
+<p><strong>Why did it fail:</strong> I never made progress beyond registering SelfIMe.com, then letting it expire when I realised the domain had little to do with the ideas behind it.</p>
 
-<p><strong>Future:</strong> I think there are some interesting ideas I can salvage from this. Maybe I’ll pick it up some day - there’s always room for yet another notes app.</p>
+<p><strong>Future:</strong> There are still ideas worth salvaging. Maybe I’ll pick it up someday. There’s always room for another notes app.</p>
+
+<p><strong>Updated September 2026:</strong> After spending years on this fails page, <a href="https://selfime.com/">Selfime</a> is alive. It became a meditation app built around recording in your own voice. A different use for the name, but still self - I - me. I wrote about the journey in <a href="/blog/2026/09/20/the-long-game/">The Long Game</a>.</p>
 
 <h2 id="memorybike">Memory.bike</h2>
 <p><strong>When:</strong> 2017-2018</p>
 
-<p><strong>What:</strong> A bicycle for the mind</p>
+<p><strong>What:</strong> A bicycle for the mind.</p>
 
 <p><strong>Points:</strong></p>
 <ul>
-  <li>I wanted to organise my book reviews and things I was learning</li>
-  <li>To accomplish this I wanted to create a syntax for writing/recording information in such a way that it could be digested intelligently. For instance, in writing my notes I could write notes with questions and answers such as:
+  <li>I wanted to organise my book reviews and the things I was learning.</li>
+  <li>I wanted a writing syntax that software could digest intelligently. A note could contain questions and answers such as:
     <pre><code class="language-.env">{*html}
 {q}
   What does WAI-ARIA stand for?
@@ -155,16 +165,18 @@
   Web Accessibility Initiative Accessible Rich Internet Applications
 {/a}
 </code></pre>
-    <p>These notes can then be presented as a question and answer in Anki cards or something.</p>
+    <p>Those notes could then become question-and-answer cards in Anki or a similar tool.</p>
   </li>
-  <li>In my learning go via the cool <a href="https://gophercises.com/">Gophercises</a> I worked through a quiz CLI that does a bit of this using questions and answers stored in a CSV file. My code is on <a href="https://github.com/anphase/go_quiz">Github</a> but implementation details are in the Gophercises lesson 1. They are free and pretty fun, you should check them out if you’re interested in learning Go by doing.</li>
+  <li>While learning Go through <a href="https://gophercises.com/">Gophercises</a>, I built a quiz CLI that does a little of this with questions and answers stored in a CSV file. My code is on <a href="https://github.com/anphase/go_quiz">GitHub</a>; the implementation follows Gophercises lesson 1. The lessons are free, practical, and fun.</li>
 </ul>
 
-<p>(WIP… to be continued…)</p>
+<p>Work in progress.</p>
+
+<p><strong>Updated September 2026:</strong> The memory lives on! I’ve just picked up the <a href="https://memory.bike/">memory.bike</a> domain again, and the project is starting to come alive.</p>
 
 </div>
 
-    </div>
+    </main>
 
   </body>
 </html>
