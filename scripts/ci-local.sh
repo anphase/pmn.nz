@@ -13,3 +13,5 @@ bundle config set --local path vendor/bundle
 bundle install
 JEKYLL_ENV=production bundle exec jekyll build --destination "$dest"
 bundle exec htmlproofer "$dest" --disable-external
+ruby test/check_seo_test.rb
+ruby scripts/check-seo.rb "$dest"
