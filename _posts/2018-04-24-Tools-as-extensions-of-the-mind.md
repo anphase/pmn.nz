@@ -3,6 +3,7 @@ layout: post
 title:  Tools as extensions of the mind
 categories: mind development
 date:   2018-04-24 13:00:00 +1200
+description: "Philosophers have long speculated that our minds are not just in our brains. They are embodied, and our bodies form part of our minds."
 ---
 Philosophers have long speculated that our minds are not just in our brains. They are embodied, which is to say that our bodies form part of our minds. Our bodies are not merely peripheral components for input and output. They do some processing too. They release chemicals and process signals, some of which are interpreted in the brain as complex feelings while others remain below the threshold of consciousness. Shockingly, *most* of the processes in our bodies fall below this threshold. Consciousness really is just the tip of the iceberg, if that.
 
