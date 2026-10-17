@@ -6,21 +6,21 @@ date: 2026-09-20 09:00:00 +1200
 categories: projects
 description: "Twelve years after the first notes for Selfime, AI helped me turn an old idea into something useful. There was still plenty of work in between."
 excerpt: "About 12 years ago, I registered selfime.com. It finally became something quite different from the notes app I had in mind: a meditation app built around your own voice."
-image: /assets/images/posts/selfime/phone-experience.png
+image: /assets/images/posts/selfime/phone-experience-social.jpg
 ---
 
 About 12 years ago now, I registered the domain [selfime.com](https://selfime.com/) and secured the Twitter handle, [@selfime](https://x.com/selfime), and all. My idea was to create an app for my notes: self - I - me. It even earned [a place on my fails page]({{ '/fails/#selfime' | relative_url }}).
 
 <div class="post-figure-pair">
   <figure class="post-figure">
-    <a href="{{ '/assets/images/posts/selfime/twitter-2014.png' | relative_url }}">
-      <img src="{{ '/assets/images/posts/selfime/twitter-2014.png' | relative_url }}" alt="Selfime's X profile showing a join date of January 2014." width="669" height="462" decoding="async">
+    <a href="{{ '/assets/images/posts/selfime/twitter-2014.webp' | relative_url }}">
+      <img src="{{ '/assets/images/posts/selfime/twitter-2014.webp' | relative_url }}" alt="Selfime's X profile showing a join date of January 2014." width="669" height="462" decoding="async">
     </a>
     <figcaption>The name has been waiting a while. Joined January 2014.</figcaption>
   </figure>
   <figure class="post-figure">
-    <a href="{{ '/assets/images/posts/selfime/notes-2014.png' | relative_url }}">
-      <img src="{{ '/assets/images/posts/selfime/notes-2014.png' | relative_url }}" alt="Apple Notes entry titled Selfime development notes, dated 10 February 2014, describing short, focused notes." width="597" height="304" decoding="async">
+    <a href="{{ '/assets/images/posts/selfime/notes-2014.webp' | relative_url }}">
+      <img src="{{ '/assets/images/posts/selfime/notes-2014.webp' | relative_url }}" alt="Apple Notes entry titled Selfime development notes, dated 10 February 2014, describing short, focused notes." width="597" height="304" decoding="async">
     </a>
     <figcaption>My original development notes, dated 10 February 2014.</figcaption>
   </figure>
@@ -45,8 +45,8 @@ I understood this going in, so I made a few decisions to make it more inviting. 
 AI gave me the time to work on the finer details that make the user experience better. With the boilerplate things taken care of - recording audio from the microphone, playing it back, etc. - I could spend more time on the design. Working from measured cassette dimensions, refining the animations, getting the slack on the tape right when it isn't playing. Writing and refining meditations, tuning performance, and hundreds of other decisions and refinements.
 
 <figure class="post-figure">
-  <a href="{{ '/assets/images/posts/selfime/phone-experience.png' | relative_url }}">
-    <img src="{{ '/assets/images/posts/selfime/phone-experience.png' | relative_url }}" alt="Five Selfime phone screens showing a colourful cassette, the app lock, segmented recording, read-along playback and a breathing exercise." width="1132" height="465" loading="lazy" decoding="async">
+  <a href="{{ '/assets/images/posts/selfime/phone-experience.webp' | relative_url }}">
+    <img src="{{ '/assets/images/posts/selfime/phone-experience.webp' | relative_url }}" alt="Five Selfime phone screens showing a colourful cassette, the app lock, segmented recording, read-along playback and a breathing exercise." width="1132" height="465" loading="lazy" decoding="async">
   </a>
   <figcaption>Selfime on a phone: record a tape, listen back, or just breathe. Select an image to see it at full size.</figcaption>
 </figure>
@@ -58,8 +58,8 @@ Another neat thing I added is the ability to share a recording with someone clos
 Your recordings and scripts stay on your device unless you choose to back them up, export or share them. I don't receive a copy. The [privacy policy](https://selfime.com/privacy/) has the details. I also spent a good amount of time making the experience work well across Android, iOS, phones and tablets.
 
 <figure class="post-figure">
-  <a href="{{ '/assets/images/posts/selfime/tablet-experience.png' | relative_url }}">
-    <img src="{{ '/assets/images/posts/selfime/tablet-experience.png' | relative_url }}" alt="Three Selfime tablet screens showing the tape library, recording workspace, and tape editor with colours, scripts and pauses." width="1128" height="499" loading="lazy" decoding="async">
+  <a href="{{ '/assets/images/posts/selfime/tablet-experience.webp' | relative_url }}">
+    <img src="{{ '/assets/images/posts/selfime/tablet-experience.webp' | relative_url }}" alt="Three Selfime tablet screens showing the tape library, recording workspace, and tape editor with colours, scripts and pauses." width="1128" height="499" loading="lazy" decoding="async">
   </a>
   <figcaption>The tablet experience gives the tape library, recorder and editor more room.</figcaption>
 </figure>
