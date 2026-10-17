@@ -45,7 +45,6 @@ feed:
 # SEO settings
 twitter:
   username: anphase
-  card: summary
 
 # Exclude from processing
 exclude:
@@ -61,6 +60,8 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
+  - scripts/
+  - test/
 
 # Kramdown settings
 kramdown:
