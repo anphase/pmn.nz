@@ -51,6 +51,12 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - package.json
+  - package-lock.json
+  - playwright.config.js
+  - tests
+  - test-results
+  - playwright-report
   - vendor
   - .git/
   - .github/
