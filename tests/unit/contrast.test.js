@@ -1,10 +1,10 @@
-// WCAG AA (4.5:1) for the colour tokens in assets/css/custom.css, in both themes.
+// WCAG AA (4.5:1) for the colour tokens in assets/css/site.css, in both themes.
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
 
-const css = fs.readFileSync(path.join(__dirname, "../../assets/css/custom.css"), "utf8");
+const css = fs.readFileSync(path.join(__dirname, "../../assets/css/site.css"), "utf8");
 
 function block(selector) {
   const start = css.indexOf(`${selector} {`);
