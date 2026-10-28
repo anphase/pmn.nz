@@ -25,7 +25,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.0"
+          ruby-version: "3.3"  # newer runner images only build the latest 3.3.x patch
           bundler-cache: true
 
       - name: Setup Pages
