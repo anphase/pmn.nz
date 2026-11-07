@@ -6,3 +6,6 @@ vendor/
 node_modules/
 test-results/
 playwright-report/
+
+# Private coordination notes never go in this public repo.
+.tracking.md

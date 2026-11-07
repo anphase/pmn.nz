@@ -19,7 +19,7 @@ cd "$OUT/site"
 touch .nojekyll
 git init -q -b gh-pages
 git add -A
-git -c user.name=fleet-deploy -c user.email=deploy@pmn.nz commit -q -m "Deploy $(git -C "$OLDPWD" rev-parse --short HEAD 2>/dev/null || echo build)"
+git -c user.name=pmn-deploy -c user.email=deploy@pmn.nz commit -q -m "Deploy $(git -C "$OLDPWD" rev-parse --short HEAD 2>/dev/null || echo build)"
 if [ "${DEPLOY_DRY_RUN:-}" = 1 ]; then
   echo "dry run: built $(git ls-files | wc -l | tr -d ' ') files, not pushing"
   exit 0
