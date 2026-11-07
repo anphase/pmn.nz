@@ -14,6 +14,7 @@ bundle config set --local path vendor/bundle >/dev/null
 bundle install --quiet
 bundle exec jekyll build --destination "$OUT/site"
 
+[ -f "$OUT/site/CNAME" ] || { echo "build has no CNAME, refusing to deploy" >&2; exit 1; }
 cd "$OUT/site"
 touch .nojekyll
 git init -q -b gh-pages

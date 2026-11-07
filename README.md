@@ -10,3 +10,7 @@ touched), then runs html-proofer on that output with external links disabled: in
 images, alt text and scripts, and finally `scripts/check-seo.rb` (titles, descriptions, canonical
 and Open Graph tags, sitemap and robots.txt) with its unit tests, then the Playwright accessibility tests (`npm run test:e2e`, see
 `docs/quality/a11y.md`) against the same build. It exits non-zero on any failure.
+
+## Local deploy
+
+`bash scripts/deploy.sh` builds the site (production) and force-pushes it to the `gh-pages` branch using your git credentials; `DEPLOY_DRY_RUN=1` builds and stages only. It needs Pages set to "Deploy from a branch: gh-pages".
