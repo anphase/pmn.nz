@@ -3,10 +3,13 @@
   "private": true,
   "scripts": {
     "test": "node --test tests/unit/",
+    "test:coverage": "node --test --experimental-test-coverage --test-coverage-include='assets/js/**' --test-coverage-include-all --test-coverage-lines=33 --test-coverage-branches=93 --test-coverage-functions=50 tests/unit/",
+    "lint": "eslint .",
     "test:e2e": "playwright test"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.0",
-    "@playwright/test": "^1.64.1"
+    "@playwright/test": "^1.64.1",
+    "eslint": "^10.14.0"
   }
 }

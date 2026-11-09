@@ -76,6 +76,7 @@ module SeoCheck
     end
   end
 
+  # rubocop:disable Metrics/CyclomaticComplexity -- 12 at the 2026-11-09 baseline; split it, then drop this.
   def sitemap_errors(dir, pages)
     path = File.join(dir, "sitemap.xml")
     return ["sitemap.xml missing"] unless File.exist?(path)
@@ -90,6 +91,7 @@ module SeoCheck
       end
     end
   end
+  # rubocop:enable Metrics/CyclomaticComplexity
 
   def robots_errors(dir)
     path = File.join(dir, "robots.txt")

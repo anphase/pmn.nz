@@ -13,11 +13,17 @@ bundle config set --local path vendor/bundle
 bundle install
 JEKYLL_ENV=production bundle exec jekyll build --destination "$dest"
 bundle exec htmlproofer "$dest" --disable-external
-ruby test/check_seo_test.rb
+
+# Quality ratchet (docs/quality/baselines.md): coverage floors (package.json test:coverage, the
+# ruby-coverage.rb arguments) only go up; complexity limits (eslint.config.js, .rubocop.yml) only go down.
+ruby test/ruby_coverage_test.rb
+ruby scripts/ruby-coverage.rb scripts/check-seo.rb test/check_seo_test.rb 91 70  # its tests plus line/branch floors
 ruby scripts/check-seo.rb "$dest"
+bundle exec rubocop
 
 npm ci --no-audit --no-fund
 npx playwright install chromium
-npm test
+npm run lint
+npm run test:coverage
 bash scripts/check-perf-assets.sh "$dest"
 SITE_DIR="$dest" npm run test:e2e

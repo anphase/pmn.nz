@@ -19,4 +19,5 @@ gem "webrick", "~> 1.9"
 
 group :test do
   gem "html-proofer", "~> 5.0"
+  gem "rubocop", "~> 1.70", require: false
 end

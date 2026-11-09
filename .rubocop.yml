@@ -1,0 +1,8 @@
+# Complexity gate only (docs/quality/baselines.md): no method over cyclomatic complexity 10.
+AllCops:
+  DisabledByDefault: true
+  SuggestExtensions: false
+  TargetRubyVersion: 3.3
+Metrics/CyclomaticComplexity:
+  Enabled: true
+  Max: 10

@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Added
+- 2026-11-09: unit-test coverage floors and cyclomatic complexity limits enforced by `scripts/ci-local.sh`; baselines in `docs/quality/baselines.md`.
 - 2026-11-08: `docs/internal/architecture.md` with services, routes, data stores, deploy paths and a diagram.
 - 2026-11-07: `scripts/deploy.sh`, a local deploy that builds the site as pages.yml does and pushes the output to the `gh-pages` branch (`DEPLOY_DRY_RUN=1` builds without pushing).
 
