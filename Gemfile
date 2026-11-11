@@ -19,4 +19,5 @@ gem "webrick", "~> 1.9"
 
 group :test do
   gem "html-proofer", "~> 5.0"
+  gem "bundler-audit", "~> 0.9"
 end
