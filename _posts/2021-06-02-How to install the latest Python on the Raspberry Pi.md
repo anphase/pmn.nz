@@ -29,7 +29,7 @@ Extract the files with *tar*:
 tar xf Python-3.9.5.tar.xz
 ```
 
-Enter extracted directory and compile. Running 4 simultaneous jobs should be good for the Pi 3/4 with the *make* command:
+Enter the extracted directory and compile it, where running 4 simultaneous jobs should be good for the Pi 3/4 with the *make* command:
 ```bash
 cd Python-3.9.5
 ./configure --prefix=/usr/local/opt/python-3.9.5
@@ -48,8 +48,7 @@ sudo rm -r Python-3.9.5
 rm Python-3.9.5.tar.xz
 ```
 
-Create an alias for your newly installed Python in your *.bashrc* file.
-Open the *.bashrc* file with your chosen editor, vim, nano, etc. I'll use nano in this example:
+Create an alias for your newly installed Python in your *.bashrc* file, which you can open with your chosen editor such as vim or nano. I'll use nano in this example:
 ```bash
 nano ~/.bashrc
 ```
